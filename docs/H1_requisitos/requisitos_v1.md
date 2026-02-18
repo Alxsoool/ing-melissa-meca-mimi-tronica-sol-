@@ -1,7 +1,5 @@
 # Hito 1 – Análisis y Requerimientos
 
-## Chicas creo q debemos rellenar esto
-
 ## Descripción del problema
 Describe el problema de ingeniería que se resolverá.
 
