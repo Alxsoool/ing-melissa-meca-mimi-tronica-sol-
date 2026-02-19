@@ -16,7 +16,7 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 - 
 
 ## Diagrama de bloques
-(Inserta imagen o esquema)
+<img width="856" height="600" alt="image" src="https://github.com/user-attachments/assets/0f7ca0ea-cdc0-40d4-bb28-5f71179039e7" />
 
 ## Conclusiones del análisis
 Breve reflexión técnica.
