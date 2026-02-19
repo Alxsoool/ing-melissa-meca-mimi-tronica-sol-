@@ -7,7 +7,9 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 
 ## Requerimientos del sistema
 ### Funcionales
-- 
+-El sistema debe tener la capacidad de abrir y cerrar tanto de manera automática como manual.
+-El sistema debe estar automatizado al momento de detectar una persona deteniendo el sistema por completo.
+-Se debe indicar los ciclos de cada que se abre o cierra para informar al supervisor los ciclos.
 
 ### Técnicos
 - Todo el sistema de control y sensores debe operar estrictamente a 24V DC.
