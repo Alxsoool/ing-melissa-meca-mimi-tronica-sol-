@@ -1,4 +1,4 @@
-# Hito 1 – Análisis y Requerimientos
+# Análisis y Requerimientos
 
 ## Descripción del problema
 Se diseñará y automatizará una cortina industrial de hule termoformado el cual su sistema debe permitir mediante un actuador motorizado el control para abrirla y cerrarla, podrá ajustar la velocidad, configurar tiempos de espera y contará con sensores de seguridad para detenerse si detecta un obstáculo.
