@@ -26,4 +26,4 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 <img width="856" height="600" alt="image" src="https://github.com/user-attachments/assets/0f7ca0ea-cdc0-40d4-bb28-5f71179039e7" />
 
 ## Conclusiones del análisis
-Breve reflexión técnica.
+De acuerdo al análisis realizado se pudo establecer todos los requerimientos funcionales, técnicos y de seguridad para automatizar la cortina de manera adecuada, identificar la energía necesaria para activar el sistema, el modo de operación y el propósito principal para completar la tarea adecuadamente. Definir cómo actúa cada elemento. Así como la supervisión de cada ciclo, con una base que ayude a desarrollar el diseño final. 
