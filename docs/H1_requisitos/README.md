@@ -23,7 +23,8 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 - Creación de leyenda de seguridad, con indicaciones de las conexiones correctas en cada elemento para un correcto flujo de energía.  
 
 ## Diagrama de bloques
-
+<img width="1134" height="531" alt="image" src="https://github.com/user-attachments/assets/68522329-111c-428d-ae46-a2b36715a216" />
+<img width="1134" height="531" alt="image" src="https://github.com/user-attachments/assets/68522329-111c-428d-ae46-a2b36715a216" />
 
 ## Conclusiones del análisis
 De acuerdo al análisis realizado se pudo establecer todos los requerimientos funcionales, técnicos y de seguridad para automatizar la cortina de manera adecuada, identificar la energía necesaria para activar el sistema, el modo de operación y el propósito principal para completar la tarea adecuadamente. Definir cómo actúa cada elemento. Así como la supervisión de cada ciclo, con una base que ayude a desarrollar el diseño final. 
