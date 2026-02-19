@@ -13,7 +13,10 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 - 
 
 ### Seguridad
-- 
+- Acción de actuadores cuando se mantiene presencia humana alejada de la interfaz de la ventana.
+- Inicializar el sistema cuando se mantenga la distancia entre cada mitad de la ventana completamente cerrada.
+- Uso indispensable de un clema de seguridad con un fusible para evitar peligros de corriente que lleguen a perjudicar el sistema completo y la integridad.
+- Creación de leyenda de seguridad, con indicaciones de las conexiones correctas en cada elemento para un correcto flujo de energía.  
 
 ## Diagrama de bloques
 <img width="856" height="600" alt="image" src="https://github.com/user-attachments/assets/0f7ca0ea-cdc0-40d4-bb28-5f71179039e7" />
