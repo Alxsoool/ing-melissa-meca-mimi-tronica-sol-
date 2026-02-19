@@ -10,7 +10,9 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 - 
 
 ### Técnicos
-- 
+- Todo el sistema de control y sensores debe operar estrictamente a 24V DC.
+- Salidas independientes para Velocidad Alta y Baja.
+- El contador de ciclos no debe borrarse si se corta la luz.
 
 ### Seguridad
 - Acción de actuadores cuando se mantiene presencia humana alejada de la interfaz de la ventana.
