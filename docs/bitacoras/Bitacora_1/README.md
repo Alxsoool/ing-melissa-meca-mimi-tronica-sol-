@@ -27,9 +27,6 @@ Durante la sesión práctica [18 de febrero de 2026], se nos proporcionó el kit
 |1| Malla Sintética | Tela color naranja. | Simulación del cuerpo de la cortina industrial. |
 |1| Tablero MDF | Base de 30x30 cm. | Soporte estructural para el montaje del prototipo. |
 
-
-Con esta base técnica, iniciamos formalmente el Entregable H1, donde definimos y analizamos la situación problema de la cortina industrial, seleccionamos los materiales óptimos y desarrollamos los diagramas lógicos iniciales, concluyendo en la viabilidad técnica del diseño propuesto.
-
 ## Actividades realizadas
 Describe brevemente lo que trabajó el equipo.
 
