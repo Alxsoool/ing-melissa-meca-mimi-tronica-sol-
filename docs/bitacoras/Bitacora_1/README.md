@@ -58,7 +58,17 @@ Finalmente, integramos el inventario de materiales proporcionado por la Escuela 
 | **Acceso de Usuarios** | Acceso libre vs. **Contraseñas en HMI** | Definimos niveles (Operador/Supervisor) para que solo el encargado pueda cambiar velocidades y tiempos técnicos. |
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+### Problema Técnico Encontrado
+
+**Descripción del problema:**
+Durante el desarrollo del **Entregable H1**, el equipo enfrentó una serie de obstáculos críticos relacionados con la gestión de la plataforma **GitHub** y la interpretación de los lineamientos del curso. El problema principal fue la falta de alineación entre las expectativas técnicas y el conocimiento previo del equipo sobre herramientas de control de versiones y gestión de proyectos.
+
+**Desafíos y Dificultades Detectadas:**
+
+* **Confusión Normativa e Instructiva:** Al momento de elaborar la documentación, se generó un conflicto de interpretación entre la sección de **"Estándares del Proyecto"** (que define la organización técnica del repositorio) y las instrucciones específicas del **Entregable H1**. No lográbamos identificar un orden jerárquico claro, lo que resultó en incertidumbre sobre cómo estructurar las carpetas y los archivos `.md` de manera que cumplieran con ambos criterios simultáneamente.
+* **Limitaciones de Acceso en GitHub Projects:** Experimentamos una barrera técnica importante al intentar organizar el flujo de trabajo. La creación de **Issues** y su vinculación al **Project** del equipo fue una situación de alta dificultad, ya que desconocíamos la necesidad de contar con permisos de **Editor/Administrador** dentro de las funciones avanzadas de GitHub para poder mover tarjetas, asignar responsables y conectar los avances con el tablero general.
+* **Incertidumbre en la Comunicación (Discussions):** El requisito de realizar un **Kickoff** a través de las discusiones del repositorio causó confusión, debido a que no existía un formato preestablecido o una guía clara sobre el nivel de formalidad y la estructura de información que se esperaba para este primer registro oficial del equipo.
+* **Curva de Aprendizaje en la Documentación:** El proceso de transformar el análisis de la situación problema en requisitos verificables bajo los estándares solicitados fue complejo, especialmente al intentar navegar la interfaz de GitHub mientras simultáneamente tratábamos de descifrar la ruta lógica de la documentación requerida.
 
 ## Solución aplicada
 Explica cómo se resolvió.
