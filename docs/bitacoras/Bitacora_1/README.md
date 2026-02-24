@@ -40,7 +40,6 @@ Con la base técnica definida en clase, el equipo se dividió la elaboración de
 Finalmente, integramos el inventario de materiales proporcionado por la Escuela de Ingenierías del Tecnológico de Monterrey, vinculando cada componente con su función lógica y eléctrica. Este proceso de análisis y experimentación inicial nos permitió validar la viabilidad técnica del diseño y avanzar en la documentación formal de los requisitos funcionales y de seguridad del sistema.
 
 ## Decisiones de ingeniería
-### Decisiones de Ingeniería y de Equipo
 
 | Decisión | Alternativas | Justificación |
 | :--- | :--- | :--- |
@@ -58,7 +57,6 @@ Finalmente, integramos el inventario de materiales proporcionado por la Escuela 
 | **Acceso de Usuarios** | Acceso libre vs. **Contraseñas en HMI** | Definimos niveles (Operador/Supervisor) para que solo el encargado pueda cambiar velocidades y tiempos técnicos. |
 
 ## Problema técnico encontrado
-### Problema Técnico Encontrado
 
 **Descripción del problema:**
 Durante el desarrollo del **Entregable H1**, el equipo enfrentó una serie de obstáculos críticos relacionados con la gestión de la plataforma **GitHub** y la interpretación de los lineamientos del curso. El problema principal fue la falta de alineación entre las expectativas técnicas y el conocimiento previo del equipo sobre herramientas de control de versiones y gestión de proyectos.
