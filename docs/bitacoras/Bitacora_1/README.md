@@ -35,9 +35,18 @@ El equipo realizó un análisis profundo de la situación problema, identificand
 En la sesión práctica 1 [11 de febrero 2026], desarrollamos el ejercicio "Hola Mundo" en LOGO!, logrando implementar una secuencia básica de luces y relevadores. Esta actividad nos permitió dominar el ciclo de editar, cargar y probar el controlador, generando como evidencia un video de simulación de 50 segundos. 
 Configuramos el entorno de trabajo en LOGO!, seleccionando el modelo 12/24RCE para asegurar la compatibilidad con el hardware del laboratorio. Diseñamos un programa de control secuencial utilizando bloques de tiempo para activar tres salidas en intervalos de 5, 1 y 4 segundos respectivamente, configurando un bucle de repetición indefinida. Finalmente, ejecutamos el ciclo de carga y prueba vía Ethernet, verificando el funcionamiento físico de los relevadores y documentando el éxito de la lógica mediante un video de simulación de 50 segundos.
 
+<img width="1490" height="909" alt="image" src="https://github.com/user-attachments/assets/752eee68-b941-465c-878f-4dde87d3ff02" />
+
+
 Con la base técnica definida en clase, el equipo se dividió la elaboración del Entregable H1, asignando la redacción de requisitos a Marisol y Ximena, la tabla de I/O a Marisol y Melissa, y el diagrama de bloques a Melissa.
 
-Finalmente, integramos el inventario de materiales proporcionado por la Escuela de Ingenierías del Tecnológico de Monterrey, vinculando cada componente con su función lógica y eléctrica. Este proceso de análisis y experimentación inicial nos permitió validar la viabilidad técnica del diseño y avanzar en la documentación formal de los requisitos funcionales y de seguridad del sistema.
+Finalmente, integramos el inventario de materiales proporcionado por la Escuela de Ingenierías del Tecnológico de Monterrey, vinculando cada componente con su función lógica y eléctrica. 
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0178d6f4-4b12-465c-91c4-a53012f007d4" />
+
+
+<img width="778" height="860" alt="image" src="https://github.com/user-attachments/assets/62f72de3-371f-44b4-9aa2-fc2959f3a7ed" />
+
 
 ## Decisiones de ingeniería
 
