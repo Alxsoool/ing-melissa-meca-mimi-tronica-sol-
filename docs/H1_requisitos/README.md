@@ -24,6 +24,8 @@ Los actores son: el operador (controla la cortina en modo manual o automático y
 
 ## Diagrama de bloques
 <img width="1134" height="531" alt="image" src="https://github.com/user-attachments/assets/68522329-111c-428d-ae46-a2b36715a216" />
+<img width="703" height="483" alt="Captura de pantalla 2026-02-24 160345" src="https://github.com/user-attachments/assets/f10c0c06-4d0e-4f2c-91e8-50bcba9c872b" />
+
 
 ## Conclusiones del análisis
 De acuerdo al análisis realizado se pudo establecer todos los requerimientos funcionales, técnicos y de seguridad para automatizar la cortina de manera adecuada, identificar la energía necesaria para activar el sistema, el modo de operación y el propósito principal para completar la tarea adecuadamente. Definir cómo actúa cada elemento. Así como la supervisión de cada ciclo, con una base que ayude a desarrollar el diseño final. 
