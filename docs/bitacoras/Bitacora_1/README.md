@@ -40,8 +40,22 @@ Con la base técnica definida en clase, el equipo se dividió la elaboración de
 Finalmente, integramos el inventario de materiales proporcionado por la Escuela de Ingenierías del Tecnológico de Monterrey, vinculando cada componente con su función lógica y eléctrica. Este proceso de análisis y experimentación inicial nos permitió validar la viabilidad técnica del diseño y avanzar en la documentación formal de los requisitos funcionales y de seguridad del sistema.
 
 ## Decisiones de ingeniería
+### Decisiones de Ingeniería y de Equipo
+
 | Decisión | Alternativas | Justificación |
-|--------|-------------|---------------|
+| :--- | :--- | :--- |
+| **Cerebro del Sistema** | Arduino/PC vs. **LOGO! Siemens** | Usamos LOGO! por ser estándar industrial, resistente y fácil de programar para proyectos de automatización. |
+| **Eje de Enrollado** | Metal/Madera vs. **Tubo de PVC** | El PVC es ligero, fácil de cortar y se adapta perfecto al motor para el prototipo. |
+| **Material de Cortina** | Hule real vs. **Malla naranja** | La malla simula la transparencia y flexibilidad de la cortina industrial sin añadir peso excesivo al prototipo. |
+| **Protección** | Conexión directa vs. **Clema con fusible** | Decidimos proteger el LOGO! y los sensores con un fusible para evitar daños por errores de conexión. |
+| **Seguridad de Paso** | Paro manual vs. **Sensor Infrarrojo** | Elegimos el sensor IR para que la cortina suba automáticamente si alguien pasa, cumpliendo con la seguridad del cliente. |
+| **Control de Carga** | Salida directa vs. **Relevadores HH54P** | Los relevadores actúan como interruptores de potencia para no forzar las salidas internas del LOGO!. |
+| **Orden del Tablero** | Cables sueltos vs. **Riel DIN y Clemas** | Usar riel DIN y clemas de colores (gris/beige) ayuda a no confundir las señales y que el tablero se vea profesional. |
+| **Aviso de Estados** | Pantalla vs. **Lámpara ANDON** | La lámpara permite saber si la cortina está funcionando o en falla desde lejos, sin tener que leer la pantalla. |
+| **Detección de Tope** | Solo tiempo vs. **Sensores Magnéticos** | Usamos sensores físicos para que la cortina se detenga exactamente en los límites y no se fuerce el motor. |
+| **Gestión de Tareas** | Mensajes vs. **GitHub Issues/Projects** | Decidimos usar GitHub para dividirnos el trabajo (Marisol, Ximena, Melissa) y que todos supieran qué falta por hacer. |
+| **Validación Lógica** | Probar directo vs. **Simulación previa** | Grabamos un video de 50s de la simulación para estar seguras de que la lógica funcionaba antes de conectar el hardware. |
+| **Acceso de Usuarios** | Acceso libre vs. **Contraseñas en HMI** | Definimos niveles (Operador/Supervisor) para que solo el encargado pueda cambiar velocidades y tiempos técnicos. |
 
 ## Problema técnico encontrado
 Describe un problema concreto.
