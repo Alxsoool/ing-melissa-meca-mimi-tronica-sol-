@@ -69,14 +69,25 @@ Durante el desarrollo del **Entregable H1**, el equipo enfrentó una serie de ob
 * **Curva de Aprendizaje en la Documentación:** El proceso de transformar el análisis de la situación problema en requisitos verificables bajo los estándares solicitados fue complejo, especialmente al intentar navegar la interfaz de GitHub mientras simultáneamente tratábamos de descifrar la ruta lógica de la documentación requerida.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Para superar los obstáculos técnicos y de organización, el equipo ejecutó un plan de acción basado en dos pilares principales:
+
+1. **Asesoría Técnica Especializada:**
+   Se organizó una sesión de consultoría directa con el **Profesor Asesor Camilo René Duque Becerra** [19 de febrero de 2026]. Durante esta reunión, el equipo presentó las dudas específicas sobre la jerarquía de los documentos y las contradicciones detectadas entre los "Estándares del Proyecto" y las rúbricas del Hito 1. Además de aclarar el principal uso de los archivos README.md dentro de cada carpeta. El profesor aclaró los criterios de evaluación y la estructura de organización esperada en el repositorio, lo que nos permitió unificar la visión del equipo y establecer una ruta de trabajo clara para la documentación.
+
+2. **Capacitación Técnica en GitHub:**
+   De forma paralela, cada integrante del equipo realizó una fase de autoaprendizaje mediante **tutoriales de GitHub**. Este proceso fue fundamental para:
+   * **Entendimiento de Roles:** Comprender que se requerían permisos de "Administrador/Editor" para que todas las integrantes pudieran interactuar con el *Project Board*.
+   * **Dominio de Herramientas:** Aprender a vincular correctamente los *Issues* con el progreso del proyecto y a utilizar la sección de *Discussions* para el registro formal del Kickoff.
+   * **Estandarización:** Aplicar las mejores prácticas de Markdown para que la documentación fuera profesional y fácil de leer.
+
+Gracias a la toma de medidas de solución, logramos transformar una situación de confusión en un flujo de trabajo eficiente y ordenado.
 
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+Esta semana aplicamos el concepto de Lógica de Control Programada mediante la configuración de un relevador inteligente LOGO!, lo que nos permitió materializar la arquitectura de un sistema automatizado que integra señales de entrada, procesamiento lógico y etapas de salida. Al desarrollar la lógica de bloques para gestionar el movimiento de la cortina, pusimos en práctica la teoría de temporización y secuenciamiento industrial, además de reforzar el uso de interfaces de potencia mediante relevadores para aislar físicamente el circuito de control del de fuerza. Esta implementación técnica fue fundamental para comprender cómo proteger el controlador ante cargas inductivas y asegurar un flujo de operación robusto, cumpliendo con los estándares de seguridad y eficiencia analizados en el curso.
 
 ## Autoevaluación
-- ⬜ Muy perdido
-- ⬜ Con dudas
-- ⬜ Entendiendo
-- ⬜ Dominando
+- [ ] Muy perdido
+- [ ] Con dudas
+- [x] Entendiendo 💡
+- [ ] Dominando
 
