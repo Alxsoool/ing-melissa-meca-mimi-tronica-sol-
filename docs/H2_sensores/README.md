@@ -21,7 +21,8 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | **Distancia Nominal** | (Según Datasheet) |
 | **Conexión al LOGO!** | Digital / Analógica |
 | **Observaciones** | |
-&nbsp;
+
+
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
 | **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
