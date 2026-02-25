@@ -21,16 +21,37 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | **Distancia Nominal** | (Según Datasheet) |
 | **Conexión al LOGO!** | Digital / Analógica |
 | **Observaciones** | |
-Parámetro Información
--------------------------------------
----------------------------------------------
-Tipo de sensor Inductivo / Capacitivo / Óptico / Magnético
-Marca / Modelo
-Tipo de salida PNP / NPN / Relé
-Alimentación
-Distancia nominal (según datasheet)
-Tipo de conexión al LOGO Digital / Analógica
-Observaciones iniciales
+
+| Parámetro | Detalle de Configuración |
+| :--- | :--- |
+| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
+| **Marca / Modelo** | |
+| **Tipo de Salida** | PNP / NPN / Relé |
+| **Alimentación** | |
+| **Distancia Nominal** | (Según Datasheet) |
+| **Conexión al LOGO!** | Digital / Analógica |
+| **Observaciones** | |
+
+| Parámetro | Detalle de Configuración |
+| :--- | :--- |
+| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
+| **Marca / Modelo** | |
+| **Tipo de Salida** | PNP / NPN / Relé |
+| **Alimentación** | |
+| **Distancia Nominal** | (Según Datasheet) |
+| **Conexión al LOGO!** | Digital / Analógica |
+| **Observaciones** | 
+
+| Parámetro | Detalle de Configuración |
+| :--- | :--- |
+| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
+| **Marca / Modelo** | |
+| **Tipo de Salida** | PNP / NPN / Relé |
+| **Alimentación** | |
+| **Distancia Nominal** | (Según Datasheet) |
+| **Conexión al LOGO!** | Digital / Analógica |
+| **Observaciones** | 
+
 ------------------------------------------------------------------------
 # Ⅱ. Resultados por Material Evaluado 
 > **Registro de comportamiento REAL medido en laboratorio.**
