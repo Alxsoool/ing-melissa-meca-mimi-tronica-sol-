@@ -8,8 +8,6 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 ## Fecha:
 25 de febrero del 2026
 _
-## Fecha: 
-
 ------------------------------------------------------------------------
 # Identificación del Sensor1️⃣
 Parámetro Información
