@@ -7,7 +7,7 @@ Niñas ♡
 Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 | Karla Ximena Jaime Neri A00573675
 _
 ## Fecha: 
-25 de febrero del 2026
+- 25 de febrero del 2026
 ------------------------------------------------------------------------
 # Identificación del Sensor1️⃣
 Parámetro Información
