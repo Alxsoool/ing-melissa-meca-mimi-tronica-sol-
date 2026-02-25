@@ -21,9 +21,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | **Alimentación** | 6-36 VDC |
 | **Distancia Nominal** | 4mm (Según Datasheet) |
 | **Conexión al LOGO!** | Digital |
-| **Observaciones** | - Detecta únicamente objetos metálicos. 
-- Al ser NPN-NO, la salida se conecta a tierra cuando detecta el objeto. 
-- Es común usarlo en conteo de piezas, detección de presencia en maquinaria y automatización básica |
+| **Observaciones** | • Detecta únicamente objetos metálicos.<br>• Al ser NPN-NO, la salida se conecta a tierra cuando detecta el objeto.<br>• Común en conteo de piezas y automatización básica. |
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
