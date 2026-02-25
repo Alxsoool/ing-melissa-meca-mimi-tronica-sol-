@@ -22,6 +22,18 @@ Tipo de conexión al LOGO Digital / Analógica
 Observaciones iniciales
 ------------------------------------------------------------------------
 # Resultados por Material Evaluado2️⃣
+> **Registro de comportamiento REAL medido en laboratorio.**
+
+| Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Acero** | | | | | | | |
+| **Aluminio** | | | | | | | |
+| **Cobre** | | | | | | | |
+| **Plástico** | | | | | | | |
+| **Madera** | | | | | | | |
+| **Vidrio** | | | | | | | |
+| **Agua** | | | | | | | |
+| **Imán** | | | | | | | |
 > Registrar comportamiento REAL medido en laboratorio.
 -----------------------------------------------------------------------------------
 -------------------
