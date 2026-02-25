@@ -1,9 +1,9 @@
-# MR2022 -- Registro Experimental de Pruebas de Sensores de Proximidad
+# MR2025 | Registro Experimental de Pruebas de Sensores de Proximidad
 ## Curso: Análisis de Elementos de Mecatrónica
 ## Práctica: Conexión y validación de sensores con Siemens LOGO
-## Equipo: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+## Equipo: niñas
 ## Integrantes:
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 | Karla Ximena Jaime Neri A00573675
 _
 ## Fecha: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 ------------------------------------------------------------------------
