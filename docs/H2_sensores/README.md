@@ -64,7 +64,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Acero** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
-| **Aluminio** | | | | | | | |
+| **Aluminio** |  M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
 | **Cobre** | | | | | | | |
 | **Plástico** | | | | | | | |
 | **Madera** | | | | | | | |
