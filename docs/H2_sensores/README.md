@@ -5,8 +5,9 @@
 Niñas ♡
 ## Integrantes:
 Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 | Karla Ximena Jaime Neri A00573675
-## Fecha:
+## Fecha:z
 25 de febrero del 2026
+
 _
 ------------------------------------------------------------------------
 # Identificación del Sensor1️⃣
