@@ -21,7 +21,7 @@ Distancia nominal (según datasheet)
 Tipo de conexión al LOGO Digital / Analógica
 Observaciones iniciales
 ------------------------------------------------------------------------
-# Resultados por Material Evaluado 
+# Ⅱ. Resultados por Material Evaluado 
 > **Registro de comportamiento REAL medido en laboratorio.**
 
 | Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
@@ -36,7 +36,7 @@ Observaciones iniciales
 | **Imán** | | | | | | | |
 
 ------------------------------------------------------------------------
-# Prueba de Distancia Incremental3️⃣
+# Ⅲ. Prueba de Distancia Incremental
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 -------------------------------------------------------------------------------
@@ -55,7 +55,7 @@ Distancia LED del sensor Entrada en ¿Detección Comentarios
 -------------------------------------------------------------------------------
 *(Ajustar rango según especificación del sensor)*
 ------------------------------------------------------------------------
-# Comparación vs Especificación del Fabricante4️⃣
+# Ⅳ. Comparación vs Especificación del Fabricante
 Parámetro Valor Datasheet Valor Experimental Error
 (%)
 --------------------------------- ----------------- --------------------
