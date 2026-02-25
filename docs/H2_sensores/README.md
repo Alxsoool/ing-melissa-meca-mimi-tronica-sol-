@@ -35,8 +35,8 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
-| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
-| **Marca / Modelo** | |
+| **Tipo de Sensor** | Óptico |
+| **Marca / Modelo** |  |
 | **Tipo de Salida** | PNP / NPN / Relé |
 | **Alimentación** | |
 | **Distancia Nominal** | (Según Datasheet) |
