@@ -36,12 +36,12 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
 | **Tipo de Sensor** | Óptico |
-| **Marca / Modelo** |  |
-| **Tipo de Salida** | PNP / NPN / Relé |
-| **Alimentación** | |
-| **Distancia Nominal** | (Según Datasheet) |
-| **Conexión al LOGO!** | Digital / Analógica |
-| **Observaciones** | 
+| **Marca / Modelo** | E3F-DS30P1 |
+| **Tipo de Salida** | PNP-NO |
+| **Alimentación** |10-30 VDC |
+| **Distancia Nominal** | 30 cm (Según Datasheet, en modo difuso) |
+| **Conexión al LOGO!** | Digital |
+| **Observaciones** | • Detecta objetos independientemente del material, siempre que interrumpan o reflejen el haz de luz.<br>• Ideal para conteo de piezas, detección de presencia en cintas transportadoras y aplicaciones donde se requiera mayor distancia de detección que un sensor inductivo o capacitivo. <br>• Puede verse afectado por polvo, suciedad o condiciones de iluminación ambiental.|
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
