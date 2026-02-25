@@ -45,13 +45,14 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
-| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
-| **Marca / Modelo** | |
-| **Tipo de Salida** | PNP / NPN / Relé |
-| **Alimentación** | |
-| **Distancia Nominal** | (Según Datasheet) |
-| **Conexión al LOGO!** | Digital / Analógica |
-| **Observaciones** | 
+| **Tipo de Sensor** | Magnético |
+| **Marca / Modelo** |FESTO SME-8M-DS-24V-K-2,5-OE |
+| **Tipo de Salida** | PNP - NO |
+| **Alimentación** |24 VDC (tensión nominal) |
+| **Distancia Nominal** | Detecta la posición del pistón dentro del cilindro neumático mediante el campo magnético del imán integrado; no tiene “distancia nominal” fija como los inductivos/ópticos, depende de la proximidad al imán del pistón. (Según Datasheet) |
+| **Conexión al LOGO!** | Digital |
+| **Observaciones** |  • Diseñado específicamente para montaje en cilindros neumáticos FESTO. <br>• Detecta la posición del pistón sin contacto mecánico. <br>• No detecta objetos externos, solo el imán del pistón.|
+ 
 
 ------------------------------------------------------------------------
 # Ⅱ. Resultados por Material Evaluado 
