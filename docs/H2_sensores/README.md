@@ -57,11 +57,8 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 ------------------------------------------------------------------------
 # Ⅱ. Resultados por Material Evaluado 
 > [!NOTE]
-> M: Sensor magnético
-> O: Sensor óptico
-> C: Sensor capacitivo
-> I: Sensor inductivo
-> 
+> M: Sensor magnético | O: Sensor óptico | C: Sensor capacitivo | I: Sensor inductivo
+
 > **Registro de comportamiento REAL medido en laboratorio.**
 
 | Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
