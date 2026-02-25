@@ -65,12 +65,12 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Acero** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
 | **Aluminio** |  M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
-| **Cobre** | | | | | | | |
-| **Plástico** | | | | | | | |
-| **Madera** | | | | | | | |
-| **Vidrio** | | | | | | | |
-| **Agua** | | | | | | | |
-| **Imán** | | | | | | | |
+| **Cobre** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
+| **Plástico** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
+| **Madera** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
+| **Vidrio** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
+| **Agua** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
+| **Imán** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
 
 ------------------------------------------------------------------------
 # Ⅲ. Prueba de Distancia Incremental
