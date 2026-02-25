@@ -9,7 +9,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 25 de febrero del 2026
 
 ------------------------------------------------------------------------
-# Identificación del Sensor1️⃣
+# Ⅰ. Identificación del Sensor 
 Parámetro Información
 -------------------------------------
 ---------------------------------------------
@@ -21,7 +21,7 @@ Distancia nominal (según datasheet)
 Tipo de conexión al LOGO Digital / Analógica
 Observaciones iniciales
 ------------------------------------------------------------------------
-# Resultados por Material Evaluado2️⃣
+# Resultados por Material Evaluado 
 > **Registro de comportamiento REAL medido en laboratorio.**
 
 | Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
@@ -34,27 +34,7 @@ Observaciones iniciales
 | **Vidrio** | | | | | | | |
 | **Agua** | | | | | | | |
 | **Imán** | | | | | | | |
-> Registrar comportamiento REAL medido en laboratorio.
------------------------------------------------------------------------------------
--------------------
-Material ¿Detecta? Distancia Distancia Distancia Zona Falsas
-Observaciones
-(Sí/No) mínima máxima promedio inestable
-detecciones técnicas
-estable estable efectiva (mm) (mm)
-(mm) (mm)
----------- ----------- ----------- ----------- ------------- -----------
-------------- ---------------
-Acero
-Aluminio
-Cobre
-Plástico
-Madera
-Vidrio
-Agua
-Imán
------------------------------------------------------------------------------------
--------------------
+
 ------------------------------------------------------------------------
 # Prueba de Distancia Incremental3️⃣
 > Mover el objeto en incrementos regulares y registrar comportamiento
