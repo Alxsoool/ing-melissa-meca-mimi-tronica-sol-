@@ -17,7 +17,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | :--- | :--- |
 | **Tipo de Sensor** | Inductivo |
 | **Marca / Modelo** | LJ12A3-4-Z/BX (NPN-NO)|
-| **Tipo de Salida** | NPN |
+| **Tipo de Salida** | NPN-NO |
 | **Alimentación** | 6-36 VDC |
 | **Distancia Nominal** | 4mm (Según Datasheet) |
 | **Conexión al LOGO!** | Digital |
@@ -25,13 +25,13 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
-| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
-| **Marca / Modelo** | |
-| **Tipo de Salida** | PNP / NPN / Relé |
-| **Alimentación** | |
-| **Distancia Nominal** | (Según Datasheet) |
-| **Conexión al LOGO!** | Digital / Analógica |
-| **Observaciones** | |
+| **Tipo de Sensor** | Capacitivo |
+| **Marca / Modelo** | LJC18A3-B-Z/BX |
+| **Tipo de Salida** | NPN-NO  |
+| **Alimentación** | 6-36 VDC |
+| **Distancia Nominal** | 8 mm (Según Datasheet) |
+| **Conexión al LOGO!** | Digital |
+| **Observaciones** | • Detecta tanto materiales metálicos como no metálicos (plásticos, madera, líquidos, granos, etc.).<br>• Ideal para aplicaciones de nivel, presencia de objetos no metálicos y control de procesos donde un sensor inductivo no sería suficiente.|
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
