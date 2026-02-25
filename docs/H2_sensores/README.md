@@ -55,7 +55,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
  
 
 ------------------------------------------------------------------------
-# Ⅱ. Resultados por Material Evaluado 
+## Ⅱ. Resultados por Material Evaluado 
 > [!NOTE]
 > M: Sensor magnético | O: Sensor óptico | C: Sensor capacitivo | I: Sensor inductivo
 
@@ -73,7 +73,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | **Imán** | M: No <br> O: No <br> C: No <br> I: No <b>  |  M: No <br> O: No <br> C: No <br> I: No <b> | M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |
 
 ------------------------------------------------------------------------
-# Ⅲ. Prueba de Distancia Incremental
+## Ⅲ. Prueba de Distancia Incremental
 > Mover el objeto en incrementos regulares y registrar comportamiento
 > del LED y del LOGO.
 -------------------------------------------------------------------------------
