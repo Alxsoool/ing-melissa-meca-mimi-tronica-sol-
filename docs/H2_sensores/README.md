@@ -13,18 +13,17 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 ------------------------------------------------------------------------
 ## Ⅰ. Identificación del Sensor 
 
-<details>
-  <summary>Click  para ver Sensor Inductivo</summary>
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
-| **Tipo de Sensor** | Inductivo / Capacitivo / Óptico / Magnético |
-| **Marca / Modelo** | |
-| **Tipo de Salida** | PNP / NPN / Relé |
-| **Alimentación** | |
-| **Distancia Nominal** | (Según Datasheet) |
-| **Conexión al LOGO!** | Digital / Analógica |
-| **Observaciones** | |
-</details>
+| **Tipo de Sensor** | Inductivo |
+| **Marca / Modelo** | LJ12A3-4-Z/BX (NPN-NO)|
+| **Tipo de Salida** | NPN |
+| **Alimentación** | 6-36 VDC |
+| **Distancia Nominal** | 4mm (Según Datasheet) |
+| **Conexión al LOGO!** | Digital |
+| **Observaciones** | - Detecta únicamente objetos metálicos. 
+- Al ser NPN-NO, la salida se conecta a tierra cuando detecta el objeto. 
+- Es común usarlo en conteo de piezas, detección de presencia en maquinaria y automatización básica |
 
 | Parámetro | Detalle de Configuración |
 | :--- | :--- |
