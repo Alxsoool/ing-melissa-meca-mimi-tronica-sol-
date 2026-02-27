@@ -60,6 +60,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 > M: Sensor magnético | O: Sensor óptico | C: Sensor capacitivo | I: Sensor inductivo
 
 > **Registro de comportamiento REAL medido en laboratorio.**
+
 | Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Acero** | M: No <br> O: Sí <br> C: Sí <br> I: Sí <b>  |  M: - <br> O: 0 mm <br> C: 0 mm <br> I: 0 mm <b> | M: - <br> O: 200 mm <br> C: 1 mm <br> I: 0.5 mm <b> |  M: - <br> O: 100 mm <br> C: 0.5 mm <br> I: 0.25 mm <b> |  M: - <br> O: 200 - 230 mm <br> C: No hay <br> I: No hay <b> |  M: - <br> O: No <br> C: No <br> I: No <b> |  M: - <br> O: - <br> C: - <br> I: - <b> | M: N/A; requiere imán como activador (sensor magnético típico Hall/Reed). <br> O: Estable 0–200 mm; >200 mm sensible a alineación, brillo y luz ambiente. <br> C: Alcance corto (≤1 mm); muy sensible a separación y a cambios de montaje. <br> I: Metal detectado con buen “pick-up”, pero alcance corto (≤0.5 mm); vibración/holgura afecta repetibilidad. <b> |
