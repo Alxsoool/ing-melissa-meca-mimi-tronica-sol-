@@ -72,22 +72,19 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | **Imán** | M: Sí <br> O: Sí <br> C: Sí <br> I: Sí <b>  |  M: 0 mm  <br> O: 0 mm <br> C: 0 mm <br> I: - <b> | M: 6 mm <br> O: 148 mm <br> C: 2 mm <br> I: - <b> |  M: 3 mm <br> O: 74 mm <br> C: 1 mm <br> I: - <b> |  M: 7 mm <br> O: 14-163 mm <br> C: No hay <br> I: - <b> |  M: No <br> O: No <br> C: No <br> I: Sí <b> | M: - <br> O: - <br> C: - <br> I: Falsas por metal cercano <b> | M: Rango corto y repetible; polaridad/orientación cambia el disparo. <br> O: Depende de alineación y de la superficie del imán (brillo/ángulo); luz ambiente puede introducir intermitencia. <br> C: Alcance corto (≤2 mm); sensible a proximidad de mano/objetos y a calibración. <br> I: Detecta por masa metálica/entorno; falsas cuando hay otros metales cerca; faltó registrar rango en mm (solo evento ON/OFF). <b> |
 ------------------------------------------------------------------------
 ## Ⅲ. Prueba de Distancia Incremental
-> Mover el objeto en incrementos regulares y registrar comportamiento
-> del LED y del LOGO.
--------------------------------------------------------------------------------
-Distancia LED del sensor Entrada en ¿Detección Comentarios
-(mm) (ON/OFF) LOGO (1/0) consistente? (Sí/No)
------------ ---------------- -------------- --------------------- -------------
-0
-2
-4
-6
-8
-10
-12
-14
-16
--------------------------------------------------------------------------------
+
+| Distancia (mm) | LED del sensor (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? (Sí/No) | Comentarios |
+| :---: | :---: | :---: | :---: | :--- |
+| 0  |  |  |  |  |
+| 2  |  |  |  |  |
+| 4  |  |  |  |  |
+| 6  |  |  |  |  |
+| 8  |  |  |  |  |
+| 10 |  |  |  |  |
+| 12 |  |  |  |  |
+| 14 |  |  |  |  |
+| 16 |  |  |  |  |
+
 *(Ajustar rango según especificación del sensor)*
 ------------------------------------------------------------------------
 # Ⅳ. Comparación vs Especificación del Fabricante
