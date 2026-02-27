@@ -74,16 +74,16 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 ## Ⅲ. Prueba de Distancia Incremental
 
 | Distancia (mm) | LED del sensor (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? (Sí/No) | Comentarios |
-| :---: | :---: | :---: | :---: | :--- |
-| 0  |  |  |  |  |
-| 2  |  |  |  |  |
-| 4  |  |  |  |  |
-| 6  |  |  |  |  |
-| 8  |  |  |  |  |
-| 10 |  |  |  |  |
-| 12 |  |  |  |  |
-| 14 |  |  |  |  |
-| 16 |  |  |  |  |
+| :---: | :--- | :--- | :--- | :--- |
+| 0  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 2  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 4  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 6  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 8  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 10 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 12 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 14 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 16 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
 
 *(Ajustar rango según especificación del sensor)*
 ------------------------------------------------------------------------
