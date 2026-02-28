@@ -172,7 +172,9 @@ En general, es un sensor económico y fácil de integrar al LOGO!, pero debe sel
 - Datasheet utilizado (link o archivo en repositorio):
 ------------------------------------------------------------------------
 ## IX. Bitácora de Aprendizaje
-**¿Qué aprendimos técnicamente sobre sensores de proximidad que no sabíamos antes?** **Respuesta:** Aprendimos que la distancia real de detección casi siempre es menor que la que dice el fabricante, porque influyen factores como el tamaño del objeto, la humedad, la luz o la vibración. También vimos que cada sensor funciona con un principio físico distinto por ejemplo el inductivo con corrientes en metales, el capacitivo con la constante dieléctrica, el óptico con la reflexión de la luz y el magnético con el campo del imán. 
+**¿Qué aprendimos técnicamente sobre sensores de proximidad que no sabíamos antes?**
+**Respuesta:**
+Aprendimos que la distancia real de detección casi siempre es menor que la que dice el fabricante, porque influyen factores como el tamaño del objeto, la humedad, la luz o la vibración. También vimos que cada sensor funciona con un principio físico distinto por ejemplo el inductivo con corrientes en metales, el capacitivo con la constante dieléctrica, el óptico con la reflexión de la luz y el magnético con el campo del imán. 
 ------------------------------------------------------------------------
 > Este documento forma parte del proceso de validación experimental⚙️
 > para la selección de sensores dentro del proyecto integrador MR2022.
