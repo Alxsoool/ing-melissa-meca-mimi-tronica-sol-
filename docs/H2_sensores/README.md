@@ -75,7 +75,7 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 
 | Distancia (mm) | LED del sensor (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? (Sí/No) | Comentarios |
 | :---: | :--- | :--- | :--- | :--- |
-| 0  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+| 0  | M: ON  <br> O: ON <br> I: ON <br> C: ON | M: 1 <br> O: 1 <br> I: 1 <br> C: 1 | M: Sí <br> O: Sí  <br> I: Sí <br> C: Sí | M:  <br> O:  <br> I:  <br> C:  |
 | 2  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
 | 4  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
 | 6  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
