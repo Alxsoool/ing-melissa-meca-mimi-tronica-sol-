@@ -87,14 +87,13 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 
 *(Ajustar rango según especificación del sensor)*
 ------------------------------------------------------------------------
-# Ⅳ. Comparación vs Especificación del Fabricante
-Parámetro Valor Datasheet Valor Experimental Error
-(%)
---------------------------------- ----------------- --------------------
------------
-Distancia nominal
-Tiempo de respuesta (si aplica)
-Tipo de material recomendado
+## Ⅳ. Comparación vs Especificación del Fabricante
+| Parámetro                  | Valor Datasheet                          | Valor Experimental                  | Error (%) |
+|-----------------------------|------------------------------------------|-------------------------------------|-----------|
+| **Distancia nominal**       | I: 4 mm <br> C: 8 mm <br> O: 300 mm <br> M: 2–6 mm (según montaje) | I: 0–4 mm estable <br> C: 0–1 mm estable <br> O: 200–250 mm estable <br> M: 0–6 mm estable | I: ~0–25% <br> C: ~75–90% <br> O: ~20–30% <br> M: dentro de rango |
+| **Tiempo de respuesta**     | I: ≤2 ms <br> C: ≤10 ms <br> O: ≤1 ms <br> M: ≤1 ms | No medido directamente; percepción visual estable | N/A (no se midió con osciloscopio) |
+| **Tipo de material recomendado** | I: Metales (ferrosos y no ferrosos) <br> C: Metales y no metálicos (plásticos, madera, líquidos) <br> O: Cualquier objeto opaco/reflejante <br> M: Imán/pistón con imán | I: Detectó acero y aluminio <br> C: Detectó madera, agua, aluminio <br> O: Detectó acero, aluminio, plásticos, madera, agua <br> M: Solo imán | Coincidente con especificación |
+
 ------------------------------------------------------------------------
 # Análisis Técnico del Equipo5️⃣
 ## 5.1 ¿Coincide la distancia real con la nominal?
