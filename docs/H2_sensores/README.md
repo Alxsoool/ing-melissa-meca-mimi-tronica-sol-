@@ -166,4 +166,12 @@ El equipo comprendió que los valores de datasheet no siempre representan el com
 
 ---
 
-> Este documento forma parte del proceso de validación experimental para la selección de sensores dentro del proyecto integrador MR2025.
+Autoevaluación
+
+⬜ Muy perdido
+
+⬜ Con dudas
+
+✅ Entendiendo 💡
+
+⬜ Dominando
