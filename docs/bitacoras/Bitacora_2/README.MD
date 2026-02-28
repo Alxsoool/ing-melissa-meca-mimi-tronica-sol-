@@ -25,11 +25,22 @@ Sensor capacitivo sensible a humedad, proximidad de la mano y variaciones de mon
 Diferencias notables entre la distancia nominal del datasheet y la distancia efectiva real, particularmente en sensores inductivos y capacitivos.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+El problema se resolvió mediante:
+
+Ajuste de distancia de montaje dentro de la zona estable detectada experimentalmente.
+
+Reorientación y alineación del sensor óptico para minimizar reflejos.
+
+Priorización de sensores según su fenómeno físico (óptico para seguridad, magnético para límites, inductivo para metal).
+
+Validación cruzada entre el LED del sensor y la entrada lógica del LOGO!, garantizando detección consistente antes de integrar al sistema final.
+
 ## Conexión con el curso
-¿Qué concepto de MR2022 aplicaste esta semana?
+Esta semana se aplicaron directamente conceptos de sensores industriales de proximidad, fenómenos físicos de detección (campo magnético, corrientes inducidas, constante dieléctrica y reflexión óptica) y adquisición de señales digitales en sistemas mecatrónicos.
+Asimismo, se reforzó el enfoque de selección de sensores basada en evidencia experimental, criterio fundamental del curso MR2022 para justificar decisiones técnicas dentro de un proyecto real.
+
 ## Autoevaluación
 - Muy perdido⬜
 - Con dudas⬜
 - Entendiendo⬜
-- Dominando
+- Dominando x
