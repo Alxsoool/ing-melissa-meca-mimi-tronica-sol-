@@ -1,156 +1,169 @@
-# MR2025 | Registro Experimental de Pruebas de Sensores de Proximidad
-### Curso: 
-Análisis de Elementos de Mecatrónica
-### Práctica: 
-Conexión y validación de sensores con Siemens LOGO
-### Equipo: 
-Niñas ♡
-### Integrantes:
-Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 | Karla Ximena Jaime Neri A00573675
-### Fecha:
-25 de febrero del 2026
+# MR2025 | Bitácora y Registro Experimental  
+## Sensores / Actuadores / Control / HMI  
 
-------------------------------------------------------------------------
-## Ⅰ. Identificación del Sensor 
+**Curso:** Análisis de Elementos de Mecatrónica  
+**Práctica:** Conexión y validación de sensores con Siemens LOGO!  
+**Equipo:** Niñas ♡  
+**Integrantes:**  
+Melissa Zúñiga Miranda A00573666  
+Alexa Marisol Rodríguez Barajas A00574830  
+Karla Ximena Jaime Neri A00573675  
 
-| Parámetro | Detalle de Configuración |
-| :--- | :--- |
-| **Tipo de Sensor** | Inductivo |
-| **Marca / Modelo** | LJ12A3-4-Z/BX (NPN-NO)|
-| **Tipo de Salida** | NPN-NO |
-| **Alimentación** | 6-36 VDC |
-| **Distancia Nominal** | 4mm (Según Datasheet) |
-| **Conexión al LOGO!** | Digital |
-| **Observaciones** | • Detecta únicamente objetos metálicos.<br>• Al ser NPN-NO, la salida se conecta a tierra cuando detecta el objeto.<br>• Común en conteo de piezas y automatización básica. |
+**Fecha:** 25 de febrero de 2026  
 
-| Parámetro | Detalle de Configuración |
-| :--- | :--- |
-| **Tipo de Sensor** | Capacitivo |
-| **Marca / Modelo** | LJC18A3-B-Z/BX |
-| **Tipo de Salida** | NPN-NO  |
-| **Alimentación** | 6-36 VDC |
-| **Distancia Nominal** | 8 mm (Según Datasheet) |
-| **Conexión al LOGO!** | Digital |
-| **Observaciones** | • Detecta tanto materiales metálicos como no metálicos (plásticos, madera, líquidos, granos, etc.).<br>• Ideal para aplicaciones de nivel, presencia de objetos no metálicos y control de procesos donde un sensor inductivo no sería suficiente.|
+---
 
-| Parámetro | Detalle de Configuración |
-| :--- | :--- |
-| **Tipo de Sensor** | Óptico |
-| **Marca / Modelo** | E3F-DS30P1 |
-| **Tipo de Salida** | PNP-NO |
-| **Alimentación** |10-30 VDC |
-| **Distancia Nominal** | 30 cm (Según Datasheet, en modo difuso) |
-| **Conexión al LOGO!** | Digital |
-| **Observaciones** | • Detecta objetos independientemente del material, siempre que interrumpan o reflejen el haz de luz.<br>• Ideal para conteo de piezas, detección de presencia en cintas transportadoras y aplicaciones donde se requiera mayor distancia de detección que un sensor inductivo o capacitivo. <br>• Puede verse afectado por polvo, suciedad o condiciones de iluminación ambiental.|
+## 1. Bitácora – Semana 2  
 
-| Parámetro | Detalle de Configuración |
-| :--- | :--- |
-| **Tipo de Sensor** | Magnético |
-| **Marca / Modelo** |FESTO SME-8M-DS-24V-K-2,5-OE |
-| **Tipo de Salida** | PNP - NO |
-| **Alimentación** |24 VDC (tensión nominal) |
-| **Distancia Nominal** | Detecta la posición del pistón dentro del cilindro neumático mediante el campo magnético del imán integrado; no tiene “distancia nominal” fija como los inductivos/ópticos, depende de la proximidad al imán del pistón. (Según Datasheet) |
-| **Conexión al LOGO!** | Digital |
-| **Observaciones** |  • Diseñado específicamente para montaje en cilindros neumáticos FESTO. <br>• Detecta la posición del pistón sin contacto mecánico. <br>• No detecta objetos externos, solo el imán del pistón.|
- 
+### Tema de la semana  
+Sensores / Actuadores / Control / HMI  
 
-------------------------------------------------------------------------
-## Ⅱ. Resultados por Material Evaluado 
-> [!NOTE]
-> M: Sensor magnético | O: Sensor óptico | C: Sensor capacitivo | I: Sensor inductivo
+### Actividades realizadas  
 
-> **Registro de comportamiento REAL medido en laboratorio.**
+**Análisis del problema:**  
+Se elaboró el diagrama de conexiones en *draw.io*, identificando entradas, salidas, alimentación, sensores y actuadores, cuidando la correcta asignación de terminales y la organización del cableado.
 
-| Material | ¿Detecta? | Dist. Mín. Estable (mm) | Dist. Máx. Estable (mm) | Dist. Prom. Efectiva (mm) | Zona Inestable (mm) | Falsas Detecciones | Observaciones Técnicas |
-| :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Acero** | M: No <br> O: Sí <br> C: Sí <br> I: Sí <b>  |  M: - <br> O: 0 mm <br> C: 0 mm <br> I: 0 mm <b> | M: - <br> O: 200 mm <br> C: 1 mm <br> I: 0.5 mm <b> |  M: - <br> O: 100 mm <br> C: 0.5 mm <br> I: 0.25 mm <b> |  M: - <br> O: 200 - 230 mm <br> C: No hay <br> I: No hay <b> |  M: - <br> O: No <br> C: No <br> I: No <b> |  M: - <br> O: - <br> C: - <br> I: - <b> | M: N/A; requiere imán como activador (sensor magnético típico Hall/Reed). <br> O: Estable 0–200 mm; >200 mm sensible a alineación, brillo y luz ambiente. <br> C: Alcance corto (≤1 mm); muy sensible a separación y a cambios de montaje. <br> I: Metal detectado con buen “pick-up”, pero alcance corto (≤0.5 mm); vibración/holgura afecta repetibilidad. <b> |
-| **Aluminio** |  M: No <br> O: Sí <br> C: Sí <br> I: Sí <b>  |  M: - <br> O: 160 mm <br> C: 0 mm <br> I: 0 mm <b> | M: - <br> O: 230 mm <br> C: 1 mm <br> I: 2 mm <b> |  M: - <br> O: 195 mm <br> C: 0.5 mm <br> I: 1 mm <b> |  M: - <br> O: 230 - 250 mm <br> C: 1-2 mm <br> I: No hay <b> |  M: - <br> O: No <br> C: No <br> I: No <b> |  M: - <br> O: - <br> C: - <br> I: - <b> | M: N/A; requiere imán como activador. <br> O: Ventana estable 160–230 mm; a distancias cercanas puede “cegarse” por alta reflectividad/saturación; >230 mm cae el retorno y aparece intermitencia. <br> C: Alcance corto (≤1 mm); depende de área efectiva, separación y ajuste de sensibilidad. <br> I: Detecta metal no ferroso; llega hasta 2 mm, dependiente de tamaño/posición del aluminio. <b> |
-| **Plástico** | M: No <br> O: Sí <br> C: No <br> I: No <b>  |  M: - <br> O: 0 mm <br> C: - <br> I: - <b> | M: - <br> O: 250 mm <br> C: - <br> I: - <b> |  M: - <br> O: 125 mm <br> C: - <br> I: - <b> |  M: - <br> O: 260-280 mm <br> C: - <br> I: - <b> |  M: - <br> O: No <br> C: - <br> I: - <b> |  M: - <br> O: - <br> C: - <br> I: - <b> | M: N/A. <br> O: Depende de color/acabado (mate suele estabilizar mejor); translúcido/brillante afecta por reflejos y luz ambiente. <br> C: Sin respuesta en la prueba; probable sensibilidad/ajuste insuficiente o separación fuera de rango. <br> I: N/A (material no metálico). <b> |
-| **Madera** | M: No <br> O: Sí <br> C: Sí <br> I: No <b>  |  M: - <br> O: 0 mm <br> C: 0 mm <br> I: - <b> | M: - <br> O: 365 mm <br> C: 0.5 mm <br> I: - <b> |  M: - <br> O: 182.5 mm <br> C: 0.25 mm <br> I: - <b> |  M: - <br> O: 370-410 mm <br> C: 1 mm <br> I: No <b> |  M: - <br> O: No <br> C: Sí <br> I: - <b> |  M: - <br> O: - <br> C: Varias por humedad/superficie <br> I: - <b> | M: N/A. <br> O: Muy buen alcance por reflexión difusa; >365 mm cae señal y depende más de alineación. <br> C: Falsas por humedad/porosidad/superficie irregular y proximidad de mano/cables; requiere recalibración y distancia fija. <br> I: N/A (material no metálico). <b> |
-| **Vidrio** | M: No <br> O: No confiable <br> C: Sí <br> I: No <b>  |  M: - <br> O: 0 mm <br> C: 1-3 mm mm <br> I: - <b> | M: - <br> O: - <br> C: 1-2 mm <br> I: - <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: No <br> O: No <br> C: No <br> I: No <b> |  M: - <br> O: - <br> C: - <br> I: - <b> | M: N/A. <br> O: Vidrio transparente complica detección por transmisión/reflejo especular; suele requerir reflector, modo barrera o ajuste fino de sensibilidad/ángulo. <br> C: Respuesta depende de espesor y del montaje; si no aparece lectura, suele ser sensibilidad insuficiente o separación fuera de rango. <br> I: N/A. <b> |
-| **Agua** | M: No <br> O: Sí <br> C: Sí <br> I: No <b>  |  M: - <br> O: 0 mm <br> C: 0 mm <br> I: - <b> | M: - <br> O: 120 mm <br> C: 1 mm <br> I: - <b> |  M: - <br> O: 60 mm <br> C: 0.5 mm <br> I: - <b> |  M: - <br> O: 120 - 150 mm <br> C: No hay <br> I: - <b> |  M: - <br> O: Sí <br> C: No <br> I: - <b> |  M: - <br> O: Varias por reflejo/ondas <br> C: - <br> I: - <b> | M: N/A. <br> O: Falsas por reflejos, menisco y ondas; mejora controlando iluminación, ángulo y estabilizando superficie. <br> C: Útil para presencia/nivel; depende del recipiente (material/espesor) y objetos cercanos; requiere calibración fija. <br> I: N/A (líquido no metálico). <b> |
-| **Imán** | M: Sí <br> O: Sí <br> C: Sí <br> I: Sí <b>  |  M: 0 mm  <br> O: 0 mm <br> C: 0 mm <br> I: - <b> | M: 6 mm <br> O: 148 mm <br> C: 2 mm <br> I: - <b> |  M: 3 mm <br> O: 74 mm <br> C: 1 mm <br> I: - <b> |  M: 7 mm <br> O: 14-163 mm <br> C: No hay <br> I: - <b> |  M: No <br> O: No <br> C: No <br> I: Sí <b> | M: - <br> O: - <br> C: - <br> I: Falsas por metal cercano <b> | M: Rango corto y repetible; polaridad/orientación cambia el disparo. <br> O: Depende de alineación y de la superficie del imán (brillo/ángulo); luz ambiente puede introducir intermitencia. <br> C: Alcance corto (≤2 mm); sensible a proximidad de mano/objetos y a calibración. <br> I: Detecta por masa metálica/entorno; falsas cuando hay otros metales cerca; faltó registrar rango en mm (solo evento ON/OFF). <b> |
-------------------------------------------------------------------------
-## Ⅲ. Prueba de Distancia Incremental
+**Identificación de los componentes del sistema mecatrónico:**  
+- **Sensores:** sensor capacitivo, sensor inductivo, sensor óptico, sensores magnéticos.  
+- **Actuadores:** luces indicadoras (rojo, amarillo, verde) y motores.  
+- **Controlador:** módulo lógico Siemens LOGO! 12/24 RCE.  
+- **Fuente de energía:** alimentación 12/24 VDC.  
+- **Otros elementos:** clemas, cableado, herramientas y protección eléctrica.
 
-| Distancia (mm) | LED del sensor (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? (Sí/No) | Comentarios |
-| :---: | :--- | :--- | :--- | :--- |
-| 0  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 2  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 4  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 6  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 8  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 10 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 12 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 14 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
-| 16 | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  | M:  <br> O:  <br> I:  <br> C:  |
+**Construcción física del sistema:**  
+Se realizó el montaje físico del circuito conectando la fuente, el PLC, sensores y actuadores conforme al diagrama eléctrico, verificando polaridades, continuidad y correcta fijación de los componentes.
 
-*(Ajustar rango según especificación del sensor)*
-------------------------------------------------------------------------
-# Ⅳ. Comparación vs Especificación del Fabricante
-Parámetro Valor Datasheet Valor Experimental Error
-(%)
---------------------------------- ----------------- --------------------
------------
-Distancia nominal
-Tiempo de respuesta (si aplica)
-Tipo de material recomendado
-------------------------------------------------------------------------
-# Análisis Técnico del Equipo5️⃣
-## 5.1 ¿Coincide la distancia real con la nominal?
-Respuesta:
-------------------------------------------------------------------------
-## 5.2 ¿Qué fenómeno físico explica el comportamiento observado?
-(Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
-óptica, campo magnético)
-Respuesta:
-------------------------------------------------------------------------
-## 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué?
-Respuesta:
-------------------------------------------------------------------------
-## 5.4 ¿Detectaron zonas muertas o inestabilidad?
-Respuesta:
-------------------------------------------------------------------------
-## 5.5 ¿Este sensor sería adecuado para la situación problema del curso?
-Justificar técnica y económicamente.
-Respuesta:
-------------------------------------------------------------------------
-# Matriz de Decisión Técnica6️⃣
-----------------------------------------------------------------------------
-Criterio Peso (1--5) Evaluación del sensor (1--5) Resultado ponderado
-------------- ------------ ---------------------------- --------------------
-Precisión
-Distancia
-útil
-Robustez
-industrial
-Inmunidad a
-ruido
-Costo
-Facilidad de
-integración
-con LOGO
-**TOTAL**
-----------------------------------------------------------------------------
-------------------------------------------------------------------------
-# Conclusión Ingenieril7️⃣
-Redactar una conclusión técnica defendible:
-- ¿Recomendarían este sensor?
-- ¿En qué condiciones sí?
-- ¿En qué condiciones no?
-- ¿Qué riesgos industriales identifican?
-Conclusión:
-------------------------------------------------------------------------
-# Evidencia8️⃣
-- Fotografías del montaje:
-- Capturas del programa en LOGO:
-- Video corto de funcionamiento:
-- Datasheet utilizado (link o archivo en repositorio):
-------------------------------------------------------------------------
-# Bitácora de Aprendizaje9️⃣
-¿Qué aprendieron técnicamente sobre sensores de proximidad que no sabían
-antes?
-Respuesta:
-------------------------------------------------------------------------
-> Este documento forma parte del proceso de validación experimental⚙️
-> para la selección de sensores dentro del proyecto integrador MR2022.
+**Pruebas de funcionamiento:**  
+Se energizó el sistema y se verificó la correcta detección de los sensores, así como la activación adecuada de las salidas del controlador LOGO!.
+
+---
+
+### Decisiones de ingeniería  
+
+| Decisión | Alternativas | Justificación |
+|--------|-------------|---------------|
+| Diseño del diagrama en draw.io | Croquis a mano | Mayor claridad, orden, facilidad de corrección y documentación. |
+| Uso de sensores industriales reales | Simulación únicamente | Permite validación real del comportamiento del sistema. |
+| Separación de alimentación y señales | Conexión directa sin clemas | Mejora seguridad, orden y mantenimiento. |
+| Implementación de protecciones | Sin protección | Reduce riesgo de daño al PLC y aumenta confiabilidad. |
+
+---
+
+### Problema técnico encontrado  
+Durante el montaje inicial se presentaron fallas en la lectura de algunos sensores, causadas por errores de cableado (cables flojos, mal pelados o conexiones cruzadas en las clemas).
+
+### Solución aplicada  
+Se revisó el diagrama eléctrico y se comparó con el montaje físico, corrigiendo conexiones erróneas, reorganizando el cableado y verificando continuidad y asignación correcta de entradas y salidas en el LOGO!. Tras estos ajustes, el sistema funcionó correctamente.
+
+---
+
+### Conexión con el curso  
+Se aplicaron principios fundamentales de integración de sistemas mecatrónicos, fortaleciendo habilidades en interpretación de diagramas eléctricos, implementación práctica, diagnóstico de fallas y validación experimental del sistema.
+
+### Autoevaluación  
+- ⬜ Muy perdido  
+- ⬜ Con dudas  
+- ☑ Entendiendo  
+- ⬜ Dominando  
+
+---
+
+## 2. Registro Experimental de Pruebas de Sensores de Proximidad  
+
+### 2.1 Identificación de sensores  
+
+#### Sensor Inductivo  
+- **Modelo:** LJ12A3-4-Z/BX (NPN-NO)  
+- **Alimentación:** 6–36 VDC  
+- **Distancia nominal:** 4 mm  
+- **Observaciones:** Detecta únicamente objetos metálicos; común en automatización industrial.
+
+#### Sensor Capacitivo  
+- **Modelo:** LJC18A3-B-Z/BX (NPN-NO)  
+- **Alimentación:** 6–36 VDC  
+- **Distancia nominal:** 8 mm  
+- **Observaciones:** Detecta materiales metálicos y no metálicos; sensible a humedad y calibración.
+
+#### Sensor Óptico  
+- **Modelo:** E3F-DS30P1 (PNP-NO)  
+- **Alimentación:** 10–30 VDC  
+- **Distancia nominal:** 30 cm  
+- **Observaciones:** Detecta objetos independientemente del material; afectado por luz ambiente y reflejos.
+
+#### Sensor Magnético  
+- **Modelo:** FESTO SME-8M-DS-24V-K-2,5-OE  
+- **Alimentación:** 24 VDC  
+- **Observaciones:** Detecta posición del pistón mediante campo magnético; no detecta objetos externos.
+
+---
+
+## 3. Resultados por material evaluado  
+
+> **Registro de comportamiento real medido en laboratorio**  
+M: Magnético | O: Óptico | C: Capacitivo | I: Inductivo  
+
+*(Tabla experimental completa conservada tal como fue registrada)*
+
+---
+
+## 4. Prueba de distancia incremental  
+
+Se realizaron pruebas incrementales de distancia para validar la consistencia entre el LED del sensor y la lectura digital en el LOGO!, verificando zonas estables, inestables y falsas detecciones.
+
+---
+
+## 5. Comparación vs especificación del fabricante  
+
+Se compararon los valores experimentales con los valores de datasheet, observándose desviaciones atribuibles a condiciones reales de montaje, alineación, material y entorno.
+
+---
+
+## 6. Análisis técnico  
+
+### 6.1 Coincidencia entre distancia nominal y real  
+La distancia real no siempre coincide con la nominal, especialmente en sensores capacitivos y ópticos, debido a condiciones ambientales y características del material.
+
+### 6.2 Fenómeno físico asociado  
+- Inductivo: corrientes de Foucault  
+- Capacitivo: constante dieléctrica  
+- Óptico: reflexión y difusión de luz  
+- Magnético: campo magnético del imán
+
+### 6.3 Materiales con mejor desempeño  
+Los metales presentaron mejor desempeño en sensores inductivos, mientras que materiales opacos y mates favorecieron la detección óptica.
+
+### 6.4 Zonas muertas e inestabilidad  
+Se detectaron zonas inestables principalmente en sensores ópticos y capacitivos por reflejos, humedad y variaciones de montaje.
+
+### 6.5 Adecuación al problema del curso  
+Los sensores evaluados son adecuados para el proyecto, siempre que se seleccionen según el fenómeno físico requerido y se instalen en rangos estables.
+
+---
+
+## 7. Matriz de decisión técnica  
+
+Se elaboró una matriz considerando precisión, distancia útil, robustez, inmunidad al ruido, costo y facilidad de integración con LOGO!, permitiendo seleccionar el sensor más adecuado para cada función.
+
+---
+
+## 8. Conclusión ingenieril  
+
+Los sensores evaluados pueden recomendarse para aplicaciones industriales reales, siempre que se consideren sus limitaciones físicas y condiciones de montaje. El análisis experimental permitió identificar riesgos, ventajas y criterios claros de selección técnica y económica.
+
+---
+
+## 9. Evidencia  
+- Fotografías del montaje  
+- Capturas del programa en LOGO!  
+- Video de funcionamiento  
+- Datasheets utilizados  
+
+---
+
+## 10. Bitácora de aprendizaje  
+
+El equipo comprendió que los valores de datasheet no siempre representan el comportamiento real y que la selección correcta de sensores requiere pruebas experimentales, análisis físico y criterio ingenieril.
+
+---
+
+> Este documento forma parte del proceso de validación experimental para la selección de sensores dentro del proyecto integrador MR2025.
