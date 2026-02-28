@@ -85,7 +85,8 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | 14 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Igual comportamiento: solo magnético y óptico activos. |
 | 16 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Óptico aún en rango; inductivo y capacitivo fuera. |
 
-*(Ajustar rango según especificación del sensor)*
+
+###*(Ajustar rango según especificación del sensor)*
 ------------------------------------------------------------------------
 ## Ⅳ. Comparación vs Especificación del Fabricante
 | Parámetro                  | Valor Datasheet                          | Valor Experimental                  | Error (%) |
@@ -95,24 +96,8 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | **Tipo de material recomendado** | I: Metales <br> C: Metales y no metálicos <br> O: Cualquier objeto opaco o reflejante <br> M: Imán | I: Detectó acero y aluminio <br> C: Detectó madera, agua, aluminio <br> O: Detectó acero, aluminio, plásticos, madera, agua <br> M: Solo imán | Coincidente con especificación |
 
 ------------------------------------------------------------------------
-# Análisis Técnico del Equipo5️⃣
-## 5.1 ¿Coincide la distancia real con la nominal?
-Respuesta:
-------------------------------------------------------------------------
-## 5.2 ¿Qué fenómeno físico explica el comportamiento observado?
-(Ejemplo: corrientes de Foucault, constante dieléctrica, reflexión
-óptica, campo magnético)
-Respuesta:
-------------------------------------------------------------------------
-## 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué?
-Respuesta:
-------------------------------------------------------------------------
-## 5.4 ¿Detectaron zonas muertas o inestabilidad?
-Respuesta:
-------------------------------------------------------------------------
-## 5.5 ¿Este sensor sería adecuado para la situación problema del curso?
-Justificar técnica y económicamente.
-Respuesta:
+## Análisis Técnico del Equipo5️⃣
+### 5.1 ¿Coincide la distancia real con la nominal? **Respuesta:** No, en la práctica la distancia fue menor que la indicada en el datasheet. --- ### 5.2 ¿Qué fenómeno físico explica el comportamiento observado? **Respuesta:** - Inductivo: corrientes en el metal. - Capacitivo: constante dieléctrica del material. - Óptico: reflexión o bloqueo de la luz. - Magnético: campo del imán. --- ### 5.3 ¿Qué materiales generan mejor desempeño? ¿Por qué? **Respuesta:** - Inductivo: acero, porque conduce bien. - Capacitivo: agua o madera húmeda, por su constante dieléctrica. - Óptico: plásticos o madera opaca, reflejan mejor la luz. - Magnético: imán, porque es lo que activa el sensor. --- ### 5.4 ¿Detectaron zonas muertas o inestabilidad? **Respuesta:** Sí. - Óptico: a largas distancias y con materiales brillantes. - Capacitivo: con humedad o cercanía de objetos. - Inductivo: cerca del límite de alcance. - Magnético: estable, pero solo con imán. --- ### 5.5 ¿Este sensor sería adecuado para la situación problema del curso? **Respuesta:** Depende del caso: - Inductivo: bueno para piezas metálicas, barato. - Capacitivo: útil para líquidos o materiales no metálicos, pero sensible. - Óptico: sirve para objetos variados, aunque la luz ambiente afecta. - Magnético: ideal para cilindros neumáticos, no para otros
 ------------------------------------------------------------------------
 # Matriz de Decisión Técnica6️⃣
 ----------------------------------------------------------------------------
