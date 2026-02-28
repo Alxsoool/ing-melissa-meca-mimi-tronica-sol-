@@ -76,12 +76,12 @@ Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 
 | Distancia (mm) | LED del sensor (ON/OFF) | Entrada en LOGO (1/0) | ¿Detección consistente? (Sí/No) | Comentarios |
 | :---: | :--- | :--- | :--- | :--- |
 | 0  | M: ON <br> O: ON <br> I: ON <br> C: ON | M: 1 <br> O: 1 <br> I: 1 <br> C: 1 | M: Sí <br> O: Sí <br> I: Sí <br> C: Sí | Todos detectan en contacto directo. |
-| 2  | M: ON <br> O: ON <br> I: ON <br> C: ON | M: 1 <br> O: 1 <br> I: 1 <br> C: 1 | M: Sí <br> O: Sí <br> I: Sí <br> C: Sí | Magnético aún dentro de rango; inductivo y capacitivo en su límite nominal; óptico estable. |
-| 4  | M: ON <br> O: ON <br> I: ON <br> C: OFF | M: 1 <br> O: 1 <br> I: 1 <br> C: 0 | M: Sí <br> O: Sí <br> I: Sí <br> C: No | Capacitivo pierde detección (>3 mm); inductivo aún responde (nominal 4 mm). |
-| 6  | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Inductivo fuera de rango (>4 mm); capacitivo ya no detecta; óptico sigue estable. |
+| 2  | M: ON <br> O: ON <br> I: ON <br> C: ON | M: 1 <br> O: 1 <br> I: 1 <br> C: 1 | M: Sí <br> O: Sí <br> I: Sí <br> C: Sí | Magnético aún dentro de rango, inductivo y capacitivo en su límite nominal; óptico estable. |
+| 4  | M: ON <br> O: ON <br> I: ON <br> C: OFF | M: 1 <br> O: 1 <br> I: 1 <br> C: 0 | M: Sí <br> O: Sí <br> I: Sí <br> C: No | Capacitivo pierde detección y el inductivo aún responde. |
+| 6  | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Inductivo fuera de rango, capacitivo ya no detecta y óptico sigue estable. |
 | 8  | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Solo magnético y óptico mantienen detección. |
-| 10 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Óptico aún dentro de rango (hasta 200–300 mm). |
-| 12 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Magnético estable (si hay imán); óptico sigue detectando. |
+| 10 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Óptico aún dentro de rango. |
+| 12 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Magnético estable si hay imán, óptico sigue detectando. |
 | 14 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Igual comportamiento: solo magnético y óptico activos. |
 | 16 | M: ON <br> O: ON <br> I: OFF <br> C: OFF | M: 1 <br> O: 1 <br> I: 0 <br> C: 0 | M: Sí <br> O: Sí <br> I: No <br> C: No | Óptico aún en rango; inductivo y capacitivo fuera. |
 
