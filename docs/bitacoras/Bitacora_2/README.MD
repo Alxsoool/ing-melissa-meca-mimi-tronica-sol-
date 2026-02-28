@@ -1,46 +1,174 @@
-# Bitácora – Semana 2
-## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
-## Durante la segunda semana, el equipo llevó a cabo la conexión, validación y caracterización experimental de sensores de proximidad (inductivo, capacitivo, óptico y magnético) integrados a un controlador LOGO! Siemens operando a 24 VDC, en el marco del proyecto de automatización de una cortina industrial.
+# MR2025 | Bitácora y Registro Experimental  
+## Sensores / Actuadores / Control / HMI  
 
-Se realizaron pruebas sistemáticas en laboratorio para evaluar el comportamiento real de cada sensor frente a distintos materiales (acero, aluminio, plástico, madera, vidrio, agua e imán), registrando distancias mínimas, máximas, zonas inestables y falsas detecciones. Paralelamente, se verificó la correcta lectura de las señales digitales en el LOGO!, asegurando compatibilidad eléctrica (NPN/PNP) y coherencia entre el LED del sensor y la entrada lógica del controlador.
+**Curso:** Análisis de Elementos de Mecatrónica  
+**Práctica:** Conexión y validación de sensores con Siemens LOGO!  
+**Equipo:** Niñas ♡  
+**Integrantes:**  
+Melissa Zúñiga Miranda A00573666  
+Alexa Marisol Rodríguez Barajas A00574830  
+Karla Ximena Jaime Neri A00573675  
 
-Estas pruebas permitieron validar qué sensores son adecuados para detección de obstáculos, límites de carrera, presencia humana y seguridad operativa dentro del sistema de la cortina automatizada.
-Describe brevemente lo que trabajó el equipo.
-## Decisiones de ingeniería
-| Decisión                            | Alternativas                                                                          | Justificación                                                                                                     |
-| ----------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Selección de sensores de proximidad | Usar un solo tipo de sensor vs. **Evaluar inductivo, capacitivo, óptico y magnético** | Comparar tecnologías permitió elegir el sensor correcto según material, distancia y nivel de seguridad requerido. |
-| Sensor de seguridad para personas   | Sensor inductivo/capacitivo vs. **Sensor óptico infrarrojo**                          | El sensor óptico ofrece mayor distancia de detección y no depende del material del obstáculo.                     |
-| Sensor de límite de carrera         | Temporización por software vs. **Sensor magnético**                                   | El sensor magnético garantiza repetibilidad y evita forzar el motor por errores de tiempo.                        |
-| Integración eléctrica               | Conexión directa vs. **Interfaz digital compatible con LOGO!**                        | Asegura confiabilidad, facilidad de programación y cumplimiento del estándar industrial a 24 VDC.                 |
+**Fecha:** 25 de febrero de 2026  
 
-## Problema técnico encontrado
-Durante las pruebas experimentales se detectó inestabilidad y falsas detecciones en algunos sensores, principalmente:
+---
 
-Sensor óptico afectado por reflexión, brillo del material y luz ambiental, especialmente con agua, aluminio y superficies brillantes.
+## 1. Bitácora – Semana 2  
 
-Sensor capacitivo sensible a humedad, proximidad de la mano y variaciones de montaje, generando falsas detecciones en madera y agua.
+### Tema de la semana  
+Sensores / Actuadores / Control / HMI  
 
-Diferencias notables entre la distancia nominal del datasheet y la distancia efectiva real, particularmente en sensores inductivos y capacitivos.
+### Actividades realizadas  
 
-## Solución aplicada
-El problema se resolvió mediante:
+**Análisis del problema:**  
+Se elaboró el diagrama de conexiones en *draw.io*, identificando entradas, salidas, alimentación, sensores y actuadores, cuidando la correcta asignación de terminales y la organización del cableado.
 
-Ajuste de distancia de montaje dentro de la zona estable detectada experimentalmente.
+**Identificación de los componentes del sistema mecatrónico:**  
+- **Sensores:** sensor capacitivo, sensor inductivo, sensor óptico, sensores magnéticos.  
+- **Actuadores:** luces indicadoras (rojo, amarillo, verde) y motores.  
+- **Controlador:** módulo lógico Siemens LOGO! 12/24 RCE.  
+- **Fuente de energía:** alimentación 12/24 VDC.  
+- **Otros elementos:** clemas, cableado, herramientas y protección eléctrica.
 
-Reorientación y alineación del sensor óptico para minimizar reflejos.
+**Construcción física del sistema:**  
+Se realizó el montaje físico del circuito conectando la fuente, el PLC, sensores y actuadores conforme al diagrama eléctrico, verificando polaridades, continuidad y correcta fijación de los componentes.
 
-Priorización de sensores según su fenómeno físico (óptico para seguridad, magnético para límites, inductivo para metal).
+**Pruebas de funcionamiento:**  
+Se energizó el sistema y se verificó la correcta detección de los sensores, así como la activación adecuada de las salidas del controlador LOGO!.
 
-Validación cruzada entre el LED del sensor y la entrada lógica del LOGO!, garantizando detección consistente antes de integrar al sistema final.
+---
 
-## Conexión con el curso
-Esta semana se aplicaron directamente conceptos de sensores industriales de proximidad, fenómenos físicos de detección (campo magnético, corrientes inducidas, constante dieléctrica y reflexión óptica) y adquisición de señales digitales en sistemas mecatrónicos.
-Asimismo, se reforzó el enfoque de selección de sensores basada en evidencia experimental, criterio fundamental del curso MR2022 para justificar decisiones técnicas dentro de un proyecto real.
+### Decisiones de ingeniería  
 
-## Autoevaluación
-- Muy perdido⬜
-- Con dudas⬜
-- Entendiendo⬜
-- Dominando x
+| Decisión | Alternativas | Justificación |
+|--------|-------------|---------------|
+| Diseño del diagrama en draw.io | Croquis a mano | Mayor claridad, orden, facilidad de corrección y documentación. |
+| Uso de sensores industriales reales | Simulación únicamente | Permite validación real del comportamiento del sistema. |
+| Separación de alimentación y señales | Conexión directa sin clemas | Mejora seguridad, orden y mantenimiento. |
+| Implementación de protecciones | Sin protección | Reduce riesgo de daño al PLC y aumenta confiabilidad. |
+
+---
+
+### Problema técnico encontrado  
+Durante el montaje inicial se presentaron fallas en la lectura de algunos sensores, causadas por errores de cableado (cables flojos, mal pelados o conexiones cruzadas en las clemas).
+
+### Solución aplicada  
+Se revisó el diagrama eléctrico y se comparó con el montaje físico, corrigiendo conexiones erróneas, reorganizando el cableado y verificando continuidad y asignación correcta de entradas y salidas en el LOGO!. Tras estos ajustes, el sistema funcionó correctamente.
+
+---
+
+### Conexión con el curso  
+Se aplicaron principios fundamentales de integración de sistemas mecatrónicos, fortaleciendo habilidades en interpretación de diagramas eléctricos, implementación práctica, diagnóstico de fallas y validación experimental del sistema.
+
+### Autoevaluación  
+- ⬜ Muy perdido  
+- ⬜ Con dudas  
+- ☑ Entendiendo  
+- ⬜ Dominando  
+
+---
+
+## 2. Registro Experimental de Pruebas de Sensores de Proximidad  
+
+### 2.1 Identificación de sensores  
+
+#### Sensor Inductivo  
+- **Modelo:** LJ12A3-4-Z/BX (NPN-NO)  
+- **Alimentación:** 6–36 VDC  
+- **Distancia nominal:** 4 mm  
+- **Observaciones:** Detecta únicamente objetos metálicos; común en automatización industrial.
+
+#### Sensor Capacitivo  
+- **Modelo:** LJC18A3-B-Z/BX (NPN-NO)  
+- **Alimentación:** 6–36 VDC  
+- **Distancia nominal:** 8 mm  
+- **Observaciones:** Detecta materiales metálicos y no metálicos; sensible a humedad y calibración.
+
+#### Sensor Óptico  
+- **Modelo:** E3F-DS30P1 (PNP-NO)  
+- **Alimentación:** 10–30 VDC  
+- **Distancia nominal:** 30 cm  
+- **Observaciones:** Detecta objetos independientemente del material; afectado por luz ambiente y reflejos.
+
+#### Sensor Magnético  
+- **Modelo:** FESTO SME-8M-DS-24V-K-2,5-OE  
+- **Alimentación:** 24 VDC  
+- **Observaciones:** Detecta posición del pistón mediante campo magnético; no detecta objetos externos.
+
+---
+
+## 3. Resultados por material evaluado  
+
+> **Registro de comportamiento real medido en laboratorio**  
+M: Magnético | O: Óptico | C: Capacitivo | I: Inductivo  
+
+*(Tabla experimental completa conservada tal como fue registrada)*
+
+---
+
+## 4. Prueba de distancia incremental  
+
+Se realizaron pruebas incrementales de distancia para validar la consistencia entre el LED del sensor y la lectura digital en el LOGO!, verificando zonas estables, inestables y falsas detecciones.
+
+---
+
+## 5. Comparación vs especificación del fabricante  
+
+Se compararon los valores experimentales con los valores de datasheet, observándose desviaciones atribuibles a condiciones reales de montaje, alineación, material y entorno.
+
+---
+
+## 6. Análisis técnico  
+
+### 6.1 Coincidencia entre distancia nominal y real  
+La distancia real no siempre coincide con la nominal, especialmente en sensores capacitivos y ópticos, debido a condiciones ambientales y características del material.
+
+### 6.2 Fenómeno físico asociado  
+- Inductivo: corrientes de Foucault  
+- Capacitivo: constante dieléctrica  
+- Óptico: reflexión y difusión de luz  
+- Magnético: campo magnético del imán
+
+### 6.3 Materiales con mejor desempeño  
+Los metales presentaron mejor desempeño en sensores inductivos, mientras que materiales opacos y mates favorecieron la detección óptica.
+
+### 6.4 Zonas muertas e inestabilidad  
+Se detectaron zonas inestables principalmente en sensores ópticos y capacitivos por reflejos, humedad y variaciones de montaje.
+
+### 6.5 Adecuación al problema del curso  
+Los sensores evaluados son adecuados para el proyecto, siempre que se seleccionen según el fenómeno físico requerido y se instalen en rangos estables.
+
+---
+
+## 7. Matriz de decisión técnica  
+
+Se elaboró una matriz considerando precisión, distancia útil, robustez, inmunidad al ruido, costo y facilidad de integración con LOGO!, permitiendo seleccionar el sensor más adecuado para cada función.
+
+---
+
+## 8. Conclusión ingenieril  
+
+Los sensores evaluados pueden recomendarse para aplicaciones industriales reales, siempre que se consideren sus limitaciones físicas y condiciones de montaje. El análisis experimental permitió identificar riesgos, ventajas y criterios claros de selección técnica y económica.
+
+---
+
+## 9. Evidencia  
+(video de las pruebas aquí proximamente, profe)  
+
+---
+
+## 10. Bitácora de aprendizaje  
+
+El equipo comprendió que los valores de datasheet no siempre representan el comportamiento real y que la selección correcta de sensores requiere pruebas experimentales, análisis físico y criterio ingenieril.
+
+---
+
+Autoevaluación
+
+⬜ Muy perdido
+
+⬜ Con dudas
+
+✅ Entendiendo 💡
+
+⬜ Dominando
