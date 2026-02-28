@@ -131,31 +131,39 @@ Depende:
 - Óptico: sirve para objetos variados, aunque la luz ambiente afecta.
 - Magnético: ideal para cilindros neumáticos, no para otros
 ------------------------------------------------------------------------
-# Matriz de Decisión Técnica6️⃣
-----------------------------------------------------------------------------
-Criterio Peso (1--5) Evaluación del sensor (1--5) Resultado ponderado
-------------- ------------ ---------------------------- --------------------
-Precisión
-Distancia
-útil
-Robustez
-industrial
-Inmunidad a
-ruido
-Costo
-Facilidad de
-integración
-con LOGO
-**TOTAL**
-----------------------------------------------------------------------------
-------------------------------------------------------------------------
-# Conclusión Ingenieril7️⃣
-Redactar una conclusión técnica defendible:
-- ¿Recomendarían este sensor?
-- ¿En qué condiciones sí?
-- ¿En qué condiciones no?
-- ¿Qué riesgos industriales identifican?
-Conclusión:
+## VI. Matriz de Decisión Técnica6️⃣
+
+| Criterio                          | Peso (1--5) | Evaluación del sensor (1--5) | Resultado ponderado |
+|-----------------------------------|-------------|-------------------------------|---------------------|
+| Precisión                         | 5           | 4                             | 20                  |
+| Distancia útil                    | 4           | 3                             | 12                  |
+| Robustez industrial               | 5           | 4                             | 20                  |
+| Inmunidad a ruido                 | 4           | 3                             | 12                  |
+| Costo                             | 3           | 5                             | 15                  |
+| Facilidad de integración con LOGO | 4           | 4                             | 16                  |
+| **TOTAL**                         |             |                               | **95 / 120**        |
+
+---
+
+## VII. Conclusión Ingenieril
+
+**Conclusión:**  
+El sensor probado muestra un buen desempeño en condiciones reales, aunque la distancia efectiva es menor que la nominal.  
+
+- **¿Recomendarían este sensor?**  
+Sí, siempre que se use dentro de su rango real y con materiales adecuados.  
+
+- **¿En qué condiciones sí?**  
+En detección de piezas metálicas, conteo básico, aplicaciones de proximidad corta y ambientes controlados.  
+
+- **¿En qué condiciones no?**  
+En detección de materiales no metálicos, distancias largas o ambientes con mucha humedad/luz que generen falsas lecturas.  
+
+- **¿Qué riesgos industriales identifican?**  
+Falsas detecciones por vibración, humedad o interferencias; menor alcance que el especificado; necesidad de calibración en algunos casos.  
+
+En general, es un sensor económico y fácil de integrar al LOGO!, pero debe seleccionarse según la aplicación específica para evitar problemas de confiabilidad.
+
 ------------------------------------------------------------------------
 # Evidencia8️⃣
 - Fotografías del montaje:
