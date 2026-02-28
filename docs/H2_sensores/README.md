@@ -131,7 +131,7 @@ Depende:
 - Óptico: sirve para objetos variados, aunque la luz ambiente afecta.
 - Magnético: ideal para cilindros neumáticos, no para otros
 ------------------------------------------------------------------------
-## VI. Matriz de Decisión Técnica6️⃣
+## VI. Matriz de Decisión Técnica
 
 | Criterio                          | Peso (1--5) | Evaluación del sensor (1--5) | Resultado ponderado |
 |-----------------------------------|-------------|-------------------------------|---------------------|
@@ -165,16 +165,14 @@ Falsas detecciones por vibración, humedad o interferencias; menor alcance que e
 En general, es un sensor económico y fácil de integrar al LOGO!, pero debe seleccionarse según la aplicación específica para evitar problemas de confiabilidad.
 
 ------------------------------------------------------------------------
-# Evidencia8️⃣
+## VIII. Evidencia
 - Fotografías del montaje:
 - Capturas del programa en LOGO:
 - Video corto de funcionamiento:
 - Datasheet utilizado (link o archivo en repositorio):
 ------------------------------------------------------------------------
-# Bitácora de Aprendizaje9️⃣
-¿Qué aprendieron técnicamente sobre sensores de proximidad que no sabían
-antes?
-Respuesta:
+## IX. Bitácora de Aprendizaje
+**¿Qué aprendimos técnicamente sobre sensores de proximidad que no sabíamos antes?** **Respuesta:** Aprendimos que la distancia real de detección casi siempre es menor que la que dice el fabricante, porque influyen factores como el tamaño del objeto, la humedad, la luz o la vibración. También vimos que cada sensor funciona con un principio físico distinto por ejemplo el inductivo con corrientes en metales, el capacitivo con la constante dieléctrica, el óptico con la reflexión de la luz y el magnético con el campo del imán. 
 ------------------------------------------------------------------------
 > Este documento forma parte del proceso de validación experimental⚙️
 > para la selección de sensores dentro del proyecto integrador MR2022.
