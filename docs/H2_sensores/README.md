@@ -167,9 +167,14 @@ En general, es un sensor económico y fácil de integrar al LOGO!, pero debe sel
 ------------------------------------------------------------------------
 ## VIII. Evidencia
 - Fotografías del montaje:
+ <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b6d1e545-64ee-4e35-85d1-a51e8065327f" />
+
 - Capturas del programa en LOGO:
+  
 - Video corto de funcionamiento:
+ 
 - Datasheet utilizado (link o archivo en repositorio):
+  
 ------------------------------------------------------------------------
 ## IX. Bitácora de Aprendizaje
 ¿Qué aprendimos técnicamente sobre sensores de proximidad que no sabíamos antes?
