@@ -1,4 +1,8 @@
 # Hito 3 – Control e Integración
+### Nombres: 
+###Melissa Zúñiga Miranda A00573666
+###Karla Ximena Jaime Neri A00573675
+###Alexa Marisol Rodríguez Barajas A0057
 
 ## Descripción de la lógica de control
 Explica la secuencia o lógica implementada en LOGO.
