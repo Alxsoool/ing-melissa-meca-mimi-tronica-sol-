@@ -104,6 +104,7 @@ No, en la práctica la distancia fue menor que la indicada en el datasheet.
 ### 5.2 ¿Qué fenómeno físico explica el comportamiento observado? 
 **Respuesta:** 
 - Inductivo: corrientes en el metal.
+ No, en la práctica la distancia fue menor que la indicada en el datasheet.
 - Capacitivo: constante dieléctrica del material.
 - Óptico: reflexión o bloqueo de la luz.
 - Magnético: campo del imán.
