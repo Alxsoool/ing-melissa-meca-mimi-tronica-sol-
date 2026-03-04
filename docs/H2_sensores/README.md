@@ -168,10 +168,13 @@ En general, es un sensor económico y fácil de integrar al LOGO!, pero debe sel
 ## VIII. Evidencia
 - Fotografías del montaje:
  <img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/b6d1e545-64ee-4e35-85d1-a51e8065327f" />
+<img width="1600" height="1212" alt="image" src="https://github.com/user-attachments/assets/324aeb3b-1e9c-4ec2-a4d2-bea2f97c1ea4" />
 
-- Capturas del programa en LOGO:
-  
+- Capturas del programa LOGO:
+<img width="1152" height="690" alt="image" src="https://github.com/user-attachments/assets/62f01a74-7c94-467d-9dd7-7c2dda1c392b" />
+ 
 - Video corto de funcionamiento:
+
  
 - Datasheet utilizado (link o archivo en repositorio):
   
