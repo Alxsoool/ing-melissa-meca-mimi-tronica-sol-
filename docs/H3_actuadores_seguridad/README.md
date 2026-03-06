@@ -7,7 +7,21 @@ Melissa Zúñiga Miranda A00573666
 Alexa Marisol Rodríguez Barajas A00574830  
 Karla Ximena Jaime Neri A00573675  
 
-**Fecha:** 04 de marzo de 2026  
+**Fecha:** 07 de marzo de 2026  
 
 ## Descripción de la lógica de control
 Explica la secuencia o lógica implementada en LOGO.
+
+## Entradas y salidas
+| Entrada | Tipo | Función |
+|--------|------|---------|
+| Salida | Tipo | Función |
+|--------|------|---------|
+
+## Pruebas realizadas
+| Prueba | Resultado esperado | Resultado obtenido |
+|------|------------------|------------------|
+
+## Ajustes realizados
+Describe cambios hechos tras las pruebas.
+
