@@ -28,7 +28,7 @@ Explica la secuencia o lógica implementada en LOGO.
 
 # Cuadro de funciones lógicas
 
-| ENTRADAS | (6 Columnas) | | | | | SALIDAS | (4 Columnas) | | |
+| ENTRADAS | SALIDAS |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Col 1** | **Col 2** | **Col 3** | **Col 4** | **Col 5** | **Col 6** | **Col 7** | **Col 8** | **Col 9** | **Col 10** |
 | | | | | | | | | | |
