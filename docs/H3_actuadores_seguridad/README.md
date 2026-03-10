@@ -13,6 +13,7 @@ Karla Ximena Jaime Neri A00573675
 Explica la secuencia o lógica implementada en LOGO.
 
 ## Entradas y salidas
+# Elementos del sistema
 | Componente | Tipo | Función |
 | :--- | :--- | :--- |
 | Sensor Capacitivo | Digital / Analógico | Descripción de tarea |
@@ -25,8 +26,10 @@ Explica la secuencia o lógica implementada en LOGO.
 | Motor | PWM / DC | Actuador de movimiento |
 | Relés | PWM / DC | Actuador de movimiento |
 
-| Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 | Columna 6 | Columna 7 | Columna 8 | Columna 9 | Columna 10 |
+# Cuadro de funciones lógicas
+| <--- (6) ENTRADAS / SENSORES ---> | | | | | <--- (4) SALIDAS / MOTORES ---> | | |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Col 1** | **Col 2** | **Col 3** | **Col 4** | **Col 5** | **Col 6** | **Col 7** | **Col 8** | **Col 9** | **Col 10** |
 | | | | | | | | | | |
 | | | | | | | | | | |
 | | | | | | | | | | |
