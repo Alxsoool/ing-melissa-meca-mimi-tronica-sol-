@@ -32,6 +32,7 @@ Explica la secuencia o lógica implementada en LOGO.
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
+|  |  |  |
 
 ## Ajustes realizados
 Describe cambios hechos tras las pruebas.
