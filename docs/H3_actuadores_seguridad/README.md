@@ -27,17 +27,7 @@ Explica la secuencia o lógica implementada en LOGO.
 | Relés | PWM / DC | Actuador de movimiento |
 
 # Cuadro de funciones lógicas
-| ENTRADAS | | | | | | SALIDAS | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Descripción del escenario** | **[I1] Sensor Capacitivo** | **[I2] Sensor Inductivo (Negado)** | **[I3] Sensor Óptico** | **[I4] Sensor Magnético (Arriba)** | **[I5] Sensor Magnético (Medio)** | **[I6] Sensor Magnético (Bajo)** | **[Q1] Motor (Bajar)** | **[Q2] Motor (Subir)** | **[Q3] Lámpara Roja** | **[Q4] Lámpara Verde** |
-| El sistema está en reposo; encendido, nada detectado | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Inicia el sistema con la posición inicial de la cortina arriba y enciende la luz roja. | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
-| Con el sensor capacitivo y el sensor magnético (ARRIBA) activa el motor para bajar y enciende la luz roja. | 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 1 | 0 |
-| Con el sensor magnético (MEDIO), la cortina pasa por el nivel medio aun con la luz roja. | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 |
-| Con el sensor magnético (BAJO) se activa la luz verde y hay un delay de 10 segundos. | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
-| Inicia el sistema de condición reversa, donde sube, con el sensor inductivo y óptico activados, junto con el sensor magnético (MEDIO) también enciende la luz roja. | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 1 | 0 |
-| El sistema se detiene en caso de que el sensor óptico detecte actividad. | 0 | 1 | 1 | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | 0 | 0 | 0 | 0 |
-| El sistema se detiene en caso de que el sensor inductivo detecte actividad. | 0 | 0 | 0 | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | 0 | 0 | 0 | 0 |
+<img width="630" height="749" alt="image" src="https://github.com/user-attachments/assets/a94ec6b2-10aa-406a-8b3d-0f41a18e0dec" />
 
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
