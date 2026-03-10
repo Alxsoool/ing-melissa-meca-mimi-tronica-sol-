@@ -25,6 +25,16 @@ Explica la secuencia o lógica implementada en LOGO.
 | Motor | PWM / DC | Actuador de movimiento |
 | Relés | PWM / DC | Actuador de movimiento |
 
+| Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 | Columna 6 | Columna 7 | Columna 8 | Columna 9 | Columna 10 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+| | | | | | | | | | |
+
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
