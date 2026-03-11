@@ -54,8 +54,16 @@ Finalmente, el sistema entra en su fase de "condición de reversa". Esta secuenc
 
 | Prueba | Resultado esperado | Resultado obtenido | Evidencia |
 |------|------------------|------------------|-----------|
-| Esquema Funcional |  |  |  |
-| Esquema de Seguridad |  |  |  |
+| Esquema Funcional |  |  | 
+
+https://github.com/user-attachments/assets/0bbfece9-b351-4f5a-b77d-60be1d22c602
+
+ |
+| Esquema de Seguridad |  |  | 
+
+https://github.com/user-attachments/assets/f03fe556-abaa-430f-a207-99b9a985e9cb
+
+ |
 
 ## Ajustes realizados
 Describe cambios hechos tras las pruebas.
