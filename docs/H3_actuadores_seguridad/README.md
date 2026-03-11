@@ -1,4 +1,4 @@
-# Hito 3 – Control e Integración
+# Control e Integración
 **Curso:** Análisis de Elementos de Mecatrónica  
 **Práctica:** Conexión y validación de sensores con Siemens LOGO!  
 **Equipo:** Niñas ♡  
