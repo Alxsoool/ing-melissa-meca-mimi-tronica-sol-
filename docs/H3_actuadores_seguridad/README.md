@@ -10,6 +10,7 @@ Karla Ximena Jaime Neri A00573675
 **Fecha:** 10 de marzo de 2026  
 
 ## Descripción de la lógica de control
+En la clase posterior a la entraga completamos el sistema y lo corregimos, pero las pruebas en este entregable se mantienen antes de la corrección.
 
 <img width="693" height="699" alt="image" src="https://github.com/user-attachments/assets/93d9aec0-0a95-4078-bac9-cda751b7e0a2" />
 
@@ -48,7 +49,7 @@ Finalmente, el sistema entra en su fase de "condición de reversa". Esta secuenc
 
 ### Cuadro de funciones lógicas
 
-<img width="630" height="749" alt="image" src="https://github.com/user-attachments/assets/a94ec6b2-10aa-406a-8b3d-0f41a18e0dec" />
+<img width="633" height="751" alt="image" src="https://github.com/user-attachments/assets/e274ca69-61e2-434d-b2a6-9f961a2c9400" />
 
 ## Pruebas realizadas
 
