@@ -29,11 +29,11 @@ Posteriormente, una vez que la cortina alcanza el límite inferior, el sensor ma
 Finalmente, el sistema entra en su fase de "condición de reversa". Esta secuencia se activa mediante el bloque de memoria RS, el cual activa el Motor SUBIR (Salida Q2 en LOGO Simens) utilizando el sensor magnético MEDIO (I5) y el temporizador interno. No obstante, es importante señalar que existe una condición de paro TOTAL: si en cualquier punto del trayecto el sensor óptico o el inductivo detectan actividad inusual (I2' + I3 = 1), la lógica de control interrumpe inmediatamente el paso de corriente a los actuadores. De esta manera, el sistema garantiza que la cortina se detenga en seco ante cualquier emergencia, protegiendo tanto el mecanismo como al usuario.
 
 ## Entradas y salidas
-# Diagrama de conexiones eléctricas
+### Diagrama de conexiones eléctricas
 
 ![EquipoNiñas_LOGODesign](https://github.com/user-attachments/assets/97eebdc0-8635-49c0-a977-d7aa1c5fbb60)
 
-# Elementos del sistema
+### Elementos del sistema
 
 | Componente | Entrada en LOGO Siemens | Función |
 | :--- | :--- | :--- |
@@ -46,7 +46,7 @@ Finalmente, el sistema entra en su fase de "condición de reversa". Esta secuenc
 | Lámpara Semáforo | Q3 y Q4 | Indicador visual de estado: Rojo (En movimiento/Arriba) y Verde (Posición final). |
 | Motor | Q1 y Q2 | Actuador principal encargado de realizar el movimiento de Bajar (Q1) o Subir (Q2). |
 
-# Cuadro de funciones lógicas
+### Cuadro de funciones lógicas
 
 <img width="630" height="749" alt="image" src="https://github.com/user-attachments/assets/a94ec6b2-10aa-406a-8b3d-0f41a18e0dec" />
 
