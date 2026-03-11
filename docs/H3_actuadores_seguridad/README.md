@@ -72,7 +72,6 @@ https://github.com/user-attachments/assets/5a990257-511a-4b1e-b2ae-561e3fae1ee3
 
 
 ## Ajustes realizados
-## Ajustes realizados
 | Categoría | Descripción del ajuste técnico | Impacto en el sistema |
 | :--- | :--- | :--- |
 | **Normalización de Lógica (Inductivo)** | Debido a que el sensor opera de manera predeterminada como Normalmente Cerrado (NC), se implementó una negación lógica en la programación de LOGO! Soft Comfort. | Este ajuste permitió estandarizar la entrada para que el sistema interprete la detección como un "1" lógico, unificando el criterio de activación con el resto de los periféricos. |
