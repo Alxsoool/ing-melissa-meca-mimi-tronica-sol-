@@ -54,8 +54,8 @@ Finalmente, el sistema entra en su fase de "condición de reversa". Esta secuenc
 
 | Prueba | Resultado esperado | Resultado obtenido |
 |------|------------------|------------------|
-| Esquema Funcional |  |  |
-| Esquema de Seguridad |  |  |
+| Esquema Funcional | Al detectar un objeto con el sensor capacitivo (I1), el motor (Q1) debe iniciar el descenso. Al llegar al sensor magnético BAJO (I6), debe detenerse 10 segundos y luego iniciar la reversa del motor (Q2) hasta llegar al sensor magnético SUBIR (I4). La lámpara debe de cumplir con su funcionamiento al rededor del ciclo. | El sistema realizó el ciclo completo. Se observó el cambio de luces (Rojo a Verde en posición baja) y el temporizador de 10s funcionó correctamente antes de la subida automática. |
+| Esquema de Seguridad | Al estar los motores en marcha (ya sea bajando o subiendo), la activación del sensor inductivo (I2) o el óptico (I3) debe interrumpir el suministro eléctrico a los actuadores de forma inmediata. | Se validó que al acercar un objeto metálico al sensor inductivo durante la subida, el motor se detuvo instantáneamente, confirmando la jerarquía de seguridad sobre la lógica de control. Sin embargo, al activar el sensor óptico no surgió ningún efecto. |
 
 ### Evidencia Esquema Funcional
 
@@ -72,5 +72,11 @@ https://github.com/user-attachments/assets/5a990257-511a-4b1e-b2ae-561e3fae1ee3
 
 
 ## Ajustes realizados
-Describe cambios hechos tras las pruebas.
+## Ajustes realizados
+| Categoría | Descripción del ajuste técnico | Impacto en el sistema |
+| :--- | :--- | :--- |
+| **Normalización de Lógica (Inductivo)** | Debido a que el sensor opera de manera predeterminada como Normalmente Cerrado (NC), se implementó una negación lógica en la programación de LOGO! Soft Comfort. | Este ajuste permitió estandarizar la entrada para que el sistema interprete la detección como un "1" lógico, unificando el criterio de activación con el resto de los periféricos. |
+| **Mantenimiento de Conexiones** | Durante la fase de pruebas del esquema funcional, se detectaron falsos contactos en el cableado de potencia hacia los relés. Se realizó una revisión integral de las conexiones en la regleta de bornes. | Se aseguró la continuidad eléctrica y se evitaron caídas de tensión que afectaban el par del motor, garantizando un movimiento fluido. |
+| **Revalidación del Sensor Óptico** | Al observar que el sensor óptico no interrumpía el ciclo, se procedió a realizar una revalidación de sus valores de umbral, alineación y sensibilidad. | Se logró que la señal alcanzara el voltaje de conmutación requerido por la entrada del PLC, restableciendo la integridad del lazo de seguridad. |
+| **Observación y Monitoreo** | El prototipo se mantuvo en un periodo de observación tras los ajustes para garantizar que la respuesta ante emergencias fuera inmediata y repetible. | Asegura que el motor no reanude su marcha hasta que la condición de obstrucción sea eliminada por completo, validando la confiabilidad del sistema. |
 
