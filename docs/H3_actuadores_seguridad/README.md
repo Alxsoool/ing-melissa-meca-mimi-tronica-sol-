@@ -52,9 +52,10 @@ Finalmente, el sistema entra en su fase de "condición de reversa". Esta secuenc
 
 ## Pruebas realizadas
 
-| Prueba | Resultado esperado | Resultado obtenido |
-|------|------------------|------------------|
-|  |  |  |
+| Prueba | Resultado esperado | Resultado obtenido | Evidencia |
+|------|------------------|------------------|-----------|
+| Esquema Funcional |  |  |  |
+| Esquema de Seguridad |  |  |  |
 
 ## Ajustes realizados
 Describe cambios hechos tras las pruebas.
