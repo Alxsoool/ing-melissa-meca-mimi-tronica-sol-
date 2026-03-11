@@ -1,6 +1,6 @@
-# Bitácora – Semana 3 a Semana 4
+# Bitácora – Semana 3
 ## Tema de la semana
-En estas últimas 3 sesiones (semana 3 - semana 4) se abordó la integración y sincronización de periféricos industriales mediante un controlador lógico programable (PLC). El proyecto se enfocó en los siguientes pilares técnicos:
+En estas últimas sesiones (semana 3 - semana 4) se abordó la integración y sincronización de periféricos industriales mediante un controlador lógico programable (PLC). El proyecto se enfocó en los siguientes pilares técnicos:
 ### Sensores (Entradas)
 Implementación de una red de sensores multitecnología, incluyendo sensores capacitivos e inductivos para detección de presencia, sensores ópticos para barreras de seguridad y sensores magnéticos (Efecto Hall) para el control de límites de carrera y posicionamiento.
 ### Actuadores (Salidas)
