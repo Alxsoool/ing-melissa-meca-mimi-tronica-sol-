@@ -113,11 +113,12 @@ Adjunta captura(s) de pantalla del HMI.
 Indica qué está listo y qué falta por afinar:
 
 - Lógica de control ☑  
-- HMI ☑  
+- HMI (incompleto)  
 - Cableado ☑  
 - Seguridad ☑  
 - Evidencias (video/fotos) ☑  
-
+_Videos de funcionamiento:_
+https://drive.google.com/drive/folders/1lik6apuUVEtddtcRXBrtY1zWGIBRSAvZ?usp=sharing
 ---
 
 ## Reflexión breve del equipo
