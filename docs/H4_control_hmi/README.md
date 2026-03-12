@@ -71,7 +71,7 @@ Describe:
 
 ## HMI – Interfaz Humano-Máquina
 
-Describe:
+NOTA: No se logró conectar la interfaz debido a la ausencia de la tarjeta de conexión
 
 **Pantallas implementadas**
 - Pantalla principal de monitoreo del sistema.
