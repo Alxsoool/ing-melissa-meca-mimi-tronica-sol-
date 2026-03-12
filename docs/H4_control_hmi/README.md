@@ -119,6 +119,15 @@ Indica qué está listo y qué falta por afinar:
 - Evidencias (video/fotos) ☑  
 _Videos de funcionamiento:_
 https://drive.google.com/drive/folders/1lik6apuUVEtddtcRXBrtY1zWGIBRSAvZ?usp=sharing
+
+
+https://github.com/user-attachments/assets/67c0785f-d8dd-4124-be0e-5f30af45e0d6
+
+
+
+https://github.com/user-attachments/assets/ed4a77fe-8a61-48ca-80e0-d8114ee3be0e
+
+
 ---
 
 ## Reflexión breve del equipo
