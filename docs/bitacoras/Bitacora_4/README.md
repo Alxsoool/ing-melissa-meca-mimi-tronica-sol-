@@ -21,8 +21,6 @@ Instalación de soportes impresos en 3D para la cortina y ajuste fino de la alin
 
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/00a5b266-49ee-4158-9ab3-bc95e16fd2aa" />
 
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/4bc6bc7a-aba7-4203-8291-8f9e5a48392b" />
-
 ## Problema técnico encontrado
 Inicialmente no se comprendía el proceso de enlace y carga (Ethernet/IP) del software al PLC físico. Los soportes impresos en 3D quedaron demasiado exactos ("justos"), dificultando el ensamble. La inclinación de la cortina impedía que los sensores magnéticos hicieran contacto visual/físico con su contraparte. Se safó un cable del motor de 12V.
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/3f64e01c-5b99-4dda-b518-fa63cde03280" />
