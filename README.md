@@ -27,8 +27,8 @@ Descripción breve del funcionamiento.
 Tabla de detección de sensores o pruebas del sistema.
 
 ## Video demo
-(link al video)
+[(link al video)](https://drive.google.com/drive/folders/1lik6apuUVEtddtcRXBrtY1zWGIBRSAvZ?usp=sharing)
 
 ## Equipo
 Integrantes del proyecto.
-
+Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 | Karla Ximena Jaime Neri A00573675
