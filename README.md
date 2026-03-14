@@ -28,9 +28,8 @@ La lógica integra dos niveles de seguridad fundamentales: primero, los interloc
 ## Resultados de pruebas
 Tabla de detección de sensores o pruebas del sistema.
 
-## Video demo
+## Videos demo
 [(link al video)](https://drive.google.com/drive/folders/1lik6apuUVEtddtcRXBrtY1zWGIBRSAvZ?usp=sharing)
 
-## Equipo
-Integrantes del proyecto.
+## Integrantes del proyecto
 Melissa Zúñiga Miranda A00573666 | Alexa Marisol Rodríguez Barajas A00574830 | Karla Ximena Jaime Neri A00573675
