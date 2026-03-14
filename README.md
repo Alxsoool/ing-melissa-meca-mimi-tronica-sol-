@@ -3,7 +3,7 @@
 # Proyecto Mecatrónico – MR2022
 
 ## Problema
-Descripción breve del problema que resuelve el sistema.
+El problema que resuelve este sistema es la falta de seguridad y precisión en el manejo de cortinas industriales de grandes dimensiones. Su operación manual es lenta y propensa a errores humanos pero el sistema automatiza todo este proceso para eliminar la dependencia de la fuerza física y la intervención humana constante, asegurando que la cortina se mueva siempre en los tiempos exactos configurados por el operario. Además, soluciona el riesgo de accidentes al integrar sensores de seguridad que se detienen ante cualquier obstáculo.
 
 ## Arquitectura del sistema
 Insertar un diagrama de bloques.
