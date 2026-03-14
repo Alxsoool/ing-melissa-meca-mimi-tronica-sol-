@@ -26,6 +26,16 @@ El sistema opera mediante un programa cargado en el Siemens LOGO! que monitorea 
 La lógica integra dos niveles de seguridad fundamentales: primero, los interlocks proporcionados por el sensor inductivo y el sensor óptico, los cuales tienen prioridad absoluta y detienen el motor instantáneamente ante cualquier riesgo. Segundo, una secuencia de temporización configurada a 10 segundos que garantiza que la cortina permanezca en la posición inferior antes de invertir automáticamente el sentido de giro para el ascenso. Finalmente, la lógica de salida gestiona el semáforo, alternando entre rojo durante el movimiento y verde al alcanzar la posición de seguridad, informando en todo momento al operador sobre el estado operativo a través de la HMI.
 
 ## Resultados de pruebas
+| I1 Sensor Capacitivo | I2 Sensor Inductivo | I3 Sensor Óptico (Negado) | I4 Sensor Magnético (Arriba) | I5 Sensor Magnético (Medio) | I6 Sensor Magnético (Bajo) | Q1 Motor (Bajar) | Q2 Motor (Subir) | Q3 Lámpara Roja | Q4 Lámpara Verde | Descripción del escenario |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | El sistema está en reposo; encendido, pero detenido |
+| 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | Inicia el sistema con la posición inicial de la cortina arriba y enciende la luz roja |
+| 1 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | Con el sensor capacitivo y el sensor magnético (ARRIBA) se activa el motor para bajar y enciende la luz roja |
+| 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | Con el sensor magnético (MEDIO), la cortina pasa por el nivel medio aún con la luz roja |
+| 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | Con el sensor magnético (BAJO) se activa la luz verde y hay un delay de 10 segundos |
+| 0 | 1 | 0 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | Inicia el sistema de condición reversa, donde sube, con el sensor inductivo y óptico activados, junto con el sensor magnético (MEDIO) también enciende la luz roja |
+| 0 | 1 | 1 | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | El sistema se detiene en caso de que el sensor óptico detecte actividad |
+| 0 | 0 | 0 | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | *Cualquiera esté activado* | El sistema se detiene en caso de que el sensor inductivo detecte actividad |
 https://drive.google.com/drive/folders/1QBbG9HqKYnWGPE4Xqif0JBU8gSKpY1Pl?usp=sharing
 
 ## Videos demo
