@@ -21,7 +21,9 @@ https://drive.google.com/file/d/1O8LXJmrG0dRfRadI6zm2griqDGyhsf4p/view?usp=drive
 - Torre de luces
 
 ## Lógica de control
-Descripción breve del funcionamiento.
+El sistema opera mediante un programa cargado en el Siemens LOGO! que monitorea constantemente las entradas digitales. El ciclo se inicia únicamente cuando el sensor capacitivo envía una señal de arranque. A partir de ese momento, el controlador activa el motor para el descenso de la cortina, manteniendo un monitoreo permanente de los sensores magnéticos para definir las etapas del recorrido (arriba, en medio y abajo).
+
+La lógica integra dos niveles de seguridad fundamentales: primero, los interlocks proporcionados por el sensor inductivo y el sensor óptico, los cuales tienen prioridad absoluta y detienen el motor instantáneamente ante cualquier riesgo. Segundo, una secuencia de temporización configurada a 10 segundos que garantiza que la cortina permanezca en la posición inferior antes de invertir automáticamente el sentido de giro para el ascenso. Finalmente, la lógica de salida gestiona el semáforo, alternando entre rojo durante el movimiento y verde al alcanzar la posición de seguridad, informando en todo momento al operador sobre el estado operativo a través de la HMI.
 
 ## Resultados de pruebas
 Tabla de detección de sensores o pruebas del sistema.
